@@ -1,0 +1,1048 @@
+{
+  "dataset": "freddie",
+  "n_periods": 17,
+  "periods": [
+    {
+      "period": 2004,
+      "n_samples": 50000,
+      "default_rate_pct": 1.48,
+      "score_psi": 0.0141,
+      "score_alert": "green",
+      "n_features_amber": 1,
+      "n_features_red": 1,
+      "feature_alert": "green",
+      "auc_alert": "green",
+      "overall_alert": "green",
+      "auc": 0.8087,
+      "auc_drop": 0.0,
+      "top_drifting": [
+        {
+          "name": "original_interest_rate",
+          "psi": 3.3778,
+          "ks": 0.6084,
+          "chi2_stat": null,
+          "chi2_pval": null,
+          "alert": "red",
+          "is_categorical": false
+        },
+        {
+          "name": "original_upb",
+          "psi": 0.0746,
+          "ks": 0.1035,
+          "chi2_stat": null,
+          "chi2_pval": null,
+          "alert": "green",
+          "is_categorical": false
+        },
+        {
+          "name": "original_dti",
+          "psi": 0.0223,
+          "ks": 0.0609,
+          "chi2_stat": null,
+          "chi2_pval": null,
+          "alert": "green",
+          "is_categorical": false
+        },
+        {
+          "name": "property_state",
+          "psi": 0.0204,
+          "ks": null,
+          "chi2_stat": 869.14,
+          "chi2_pval": 0.0,
+          "alert": "green",
+          "is_categorical": true
+        },
+        {
+          "name": "property_type",
+          "psi": 0.0161,
+          "ks": null,
+          "chi2_stat": 809.47,
+          "chi2_pval": 0.0,
+          "alert": "green",
+          "is_categorical": true
+        }
+      ]
+    },
+    {
+      "period": 2005,
+      "n_samples": 50000,
+      "default_rate_pct": 2.13,
+      "score_psi": 0.0149,
+      "score_alert": "green",
+      "n_features_amber": 3,
+      "n_features_red": 1,
+      "feature_alert": "amber",
+      "auc_alert": "amber",
+      "overall_alert": "amber",
+      "auc": 0.7852,
+      "auc_drop": 0.0235,
+      "top_drifting": [
+        {
+          "name": "original_interest_rate",
+          "psi": 3.3643,
+          "ks": 0.5988,
+          "chi2_stat": null,
+          "chi2_pval": null,
+          "alert": "red",
+          "is_categorical": false
+        },
+        {
+          "name": "original_upb",
+          "psi": 0.189,
+          "ks": 0.1697,
+          "chi2_stat": null,
+          "chi2_pval": null,
+          "alert": "amber",
+          "is_categorical": false
+        },
+        {
+          "name": "loan_purpose",
+          "psi": 0.1097,
+          "ks": null,
+          "chi2_stat": 4528.04,
+          "chi2_pval": 0.0,
+          "alert": "amber",
+          "is_categorical": true
+        },
+        {
+          "name": "original_dti",
+          "psi": 0.0748,
+          "ks": 0.1138,
+          "chi2_stat": null,
+          "chi2_pval": null,
+          "alert": "green",
+          "is_categorical": false
+        },
+        {
+          "name": "credit_score",
+          "psi": 0.0434,
+          "ks": 0.0653,
+          "chi2_stat": null,
+          "chi2_pval": null,
+          "alert": "green",
+          "is_categorical": false
+        }
+      ]
+    },
+    {
+      "period": 2006,
+      "n_samples": 50000,
+      "default_rate_pct": 3.44,
+      "score_psi": 0.0078,
+      "score_alert": "green",
+      "n_features_amber": 4,
+      "n_features_red": 2,
+      "feature_alert": "amber",
+      "auc_alert": "amber",
+      "overall_alert": "amber",
+      "auc": 0.7802,
+      "auc_drop": 0.0285,
+      "top_drifting": [
+        {
+          "name": "original_interest_rate",
+          "psi": 2.1551,
+          "ks": 0.3852,
+          "chi2_stat": null,
+          "chi2_pval": null,
+          "alert": "red",
+          "is_categorical": false
+        },
+        {
+          "name": "original_upb",
+          "psi": 0.2521,
+          "ks": 0.1936,
+          "chi2_stat": null,
+          "chi2_pval": null,
+          "alert": "red",
+          "is_categorical": false
+        },
+        {
+          "name": "loan_purpose",
+          "psi": 0.2203,
+          "ks": null,
+          "chi2_stat": 7852.02,
+          "chi2_pval": 0.0,
+          "alert": "amber",
+          "is_categorical": true
+        },
+        {
+          "name": "original_dti",
+          "psi": 0.1423,
+          "ks": 0.1524,
+          "chi2_stat": null,
+          "chi2_pval": null,
+          "alert": "amber",
+          "is_categorical": false
+        },
+        {
+          "name": "property_state",
+          "psi": 0.0759,
+          "ks": null,
+          "chi2_stat": 3172.73,
+          "chi2_pval": 0.0,
+          "alert": "green",
+          "is_categorical": true
+        }
+      ]
+    },
+    {
+      "period": 2007,
+      "n_samples": 50000,
+      "default_rate_pct": 6.19,
+      "score_psi": 0.005,
+      "score_alert": "green",
+      "n_features_amber": 4,
+      "n_features_red": 2,
+      "feature_alert": "amber",
+      "auc_alert": "amber",
+      "overall_alert": "amber",
+      "auc": 0.7859,
+      "auc_drop": 0.0228,
+      "top_drifting": [
+        {
+          "name": "original_interest_rate",
+          "psi": 1.8034,
+          "ks": 0.3682,
+          "chi2_stat": null,
+          "chi2_pval": null,
+          "alert": "red",
+          "is_categorical": false
+        },
+        {
+          "name": "original_upb",
+          "psi": 0.2751,
+          "ks": 0.1979,
+          "chi2_stat": null,
+          "chi2_pval": null,
+          "alert": "red",
+          "is_categorical": false
+        },
+        {
+          "name": "loan_purpose",
+          "psi": 0.1613,
+          "ks": null,
+          "chi2_stat": 5959.4,
+          "chi2_pval": 0.0,
+          "alert": "amber",
+          "is_categorical": true
+        },
+        {
+          "name": "original_dti",
+          "psi": 0.1471,
+          "ks": 0.1523,
+          "chi2_stat": null,
+          "chi2_pval": null,
+          "alert": "amber",
+          "is_categorical": false
+        },
+        {
+          "name": "original_cltv",
+          "psi": 0.088,
+          "ks": 0.1195,
+          "chi2_stat": null,
+          "chi2_pval": null,
+          "alert": "green",
+          "is_categorical": false
+        }
+      ]
+    },
+    {
+      "period": 2008,
+      "n_samples": 50000,
+      "default_rate_pct": 4.47,
+      "score_psi": 0.0228,
+      "score_alert": "green",
+      "n_features_amber": 5,
+      "n_features_red": 3,
+      "feature_alert": "red",
+      "auc_alert": "green",
+      "overall_alert": "red",
+      "auc": 0.7996,
+      "auc_drop": 0.0091,
+      "top_drifting": [
+        {
+          "name": "channel",
+          "psi": 2.1621,
+          "ks": null,
+          "chi2_stat": 88040.94,
+          "chi2_pval": 0.0,
+          "alert": "red",
+          "is_categorical": true
+        },
+        {
+          "name": "original_interest_rate",
+          "psi": 1.8811,
+          "ks": 0.4435,
+          "chi2_stat": null,
+          "chi2_pval": null,
+          "alert": "red",
+          "is_categorical": false
+        },
+        {
+          "name": "original_upb",
+          "psi": 0.5029,
+          "ks": 0.2826,
+          "chi2_stat": null,
+          "chi2_pval": null,
+          "alert": "red",
+          "is_categorical": false
+        },
+        {
+          "name": "credit_score",
+          "psi": 0.187,
+          "ks": 0.1576,
+          "chi2_stat": null,
+          "chi2_pval": null,
+          "alert": "amber",
+          "is_categorical": false
+        },
+        {
+          "name": "original_dti",
+          "psi": 0.127,
+          "ks": 0.1389,
+          "chi2_stat": null,
+          "chi2_pval": null,
+          "alert": "amber",
+          "is_categorical": false
+        }
+      ]
+    },
+    {
+      "period": 2009,
+      "n_samples": 50000,
+      "default_rate_pct": 0.84,
+      "score_psi": 0.035,
+      "score_alert": "green",
+      "n_features_amber": 6,
+      "n_features_red": 4,
+      "feature_alert": "red",
+      "auc_alert": "green",
+      "overall_alert": "red",
+      "auc": 0.8051,
+      "auc_drop": 0.0035,
+      "top_drifting": [
+        {
+          "name": "channel",
+          "psi": 6.5324,
+          "ks": null,
+          "chi2_stat": 123989.78,
+          "chi2_pval": 0.0,
+          "alert": "red",
+          "is_categorical": true
+        },
+        {
+          "name": "original_interest_rate",
+          "psi": 6.0547,
+          "ks": 0.8083,
+          "chi2_stat": null,
+          "chi2_pval": null,
+          "alert": "red",
+          "is_categorical": false
+        },
+        {
+          "name": "credit_score",
+          "psi": 0.6722,
+          "ks": 0.3054,
+          "chi2_stat": null,
+          "chi2_pval": null,
+          "alert": "red",
+          "is_categorical": false
+        },
+        {
+          "name": "original_upb",
+          "psi": 0.5786,
+          "ks": 0.3005,
+          "chi2_stat": null,
+          "chi2_pval": null,
+          "alert": "red",
+          "is_categorical": false
+        },
+        {
+          "name": "loan_purpose",
+          "psi": 0.154,
+          "ks": null,
+          "chi2_stat": 5853.44,
+          "chi2_pval": 0.0,
+          "alert": "amber",
+          "is_categorical": true
+        }
+      ]
+    },
+    {
+      "period": 2010,
+      "n_samples": 50000,
+      "default_rate_pct": 0.88,
+      "score_psi": 0.0269,
+      "score_alert": "green",
+      "n_features_amber": 6,
+      "n_features_red": 5,
+      "feature_alert": "red",
+      "auc_alert": "green",
+      "overall_alert": "red",
+      "auc": 0.8243,
+      "auc_drop": -0.0156,
+      "top_drifting": [
+        {
+          "name": "original_interest_rate",
+          "psi": 7.0851,
+          "ks": 0.8437,
+          "chi2_stat": null,
+          "chi2_pval": null,
+          "alert": "red",
+          "is_categorical": false
+        },
+        {
+          "name": "channel",
+          "psi": 6.3288,
+          "ks": null,
+          "chi2_stat": 116295.32,
+          "chi2_pval": 0.0,
+          "alert": "red",
+          "is_categorical": true
+        },
+        {
+          "name": "dti_missing",
+          "psi": 0.7491,
+          "ks": 0.2684,
+          "chi2_stat": null,
+          "chi2_pval": null,
+          "alert": "red",
+          "is_categorical": false
+        },
+        {
+          "name": "credit_score",
+          "psi": 0.6608,
+          "ks": 0.3096,
+          "chi2_stat": null,
+          "chi2_pval": null,
+          "alert": "red",
+          "is_categorical": false
+        },
+        {
+          "name": "original_upb",
+          "psi": 0.4908,
+          "ks": 0.2692,
+          "chi2_stat": null,
+          "chi2_pval": null,
+          "alert": "red",
+          "is_categorical": false
+        }
+      ]
+    },
+    {
+      "period": 2011,
+      "n_samples": 50000,
+      "default_rate_pct": 0.78,
+      "score_psi": 0.0261,
+      "score_alert": "green",
+      "n_features_amber": 6,
+      "n_features_red": 5,
+      "feature_alert": "red",
+      "auc_alert": "green",
+      "overall_alert": "red",
+      "auc": 0.8456,
+      "auc_drop": -0.0369,
+      "top_drifting": [
+        {
+          "name": "original_interest_rate",
+          "psi": 7.5702,
+          "ks": 0.8787,
+          "chi2_stat": null,
+          "chi2_pval": null,
+          "alert": "red",
+          "is_categorical": false
+        },
+        {
+          "name": "channel",
+          "psi": 6.3073,
+          "ks": null,
+          "chi2_stat": 115296.74,
+          "chi2_pval": 0.0,
+          "alert": "red",
+          "is_categorical": true
+        },
+        {
+          "name": "dti_missing",
+          "psi": 0.8184,
+          "ks": 0.2851,
+          "chi2_stat": null,
+          "chi2_pval": null,
+          "alert": "red",
+          "is_categorical": false
+        },
+        {
+          "name": "credit_score",
+          "psi": 0.6596,
+          "ks": 0.3136,
+          "chi2_stat": null,
+          "chi2_pval": null,
+          "alert": "red",
+          "is_categorical": false
+        },
+        {
+          "name": "original_upb",
+          "psi": 0.4567,
+          "ks": 0.2687,
+          "chi2_stat": null,
+          "chi2_pval": null,
+          "alert": "red",
+          "is_categorical": false
+        }
+      ]
+    },
+    {
+      "period": 2012,
+      "n_samples": 50000,
+      "default_rate_pct": 0.76,
+      "score_psi": 0.032,
+      "score_alert": "green",
+      "n_features_amber": 6,
+      "n_features_red": 6,
+      "feature_alert": "red",
+      "auc_alert": "green",
+      "overall_alert": "red",
+      "auc": 0.8381,
+      "auc_drop": -0.0295,
+      "top_drifting": [
+        {
+          "name": "original_interest_rate",
+          "psi": 8.4785,
+          "ks": 0.9651,
+          "chi2_stat": null,
+          "chi2_pval": null,
+          "alert": "red",
+          "is_categorical": false
+        },
+        {
+          "name": "channel",
+          "psi": 6.0381,
+          "ks": null,
+          "chi2_stat": 105973.06,
+          "chi2_pval": 0.0,
+          "alert": "red",
+          "is_categorical": true
+        },
+        {
+          "name": "dti_missing",
+          "psi": 0.9833,
+          "ks": 0.3232,
+          "chi2_stat": null,
+          "chi2_pval": null,
+          "alert": "red",
+          "is_categorical": false
+        },
+        {
+          "name": "credit_score",
+          "psi": 0.6408,
+          "ks": 0.3143,
+          "chi2_stat": null,
+          "chi2_pval": null,
+          "alert": "red",
+          "is_categorical": false
+        },
+        {
+          "name": "original_upb",
+          "psi": 0.507,
+          "ks": 0.2824,
+          "chi2_stat": null,
+          "chi2_pval": null,
+          "alert": "red",
+          "is_categorical": false
+        }
+      ]
+    },
+    {
+      "period": 2013,
+      "n_samples": 50000,
+      "default_rate_pct": 0.65,
+      "score_psi": 0.0262,
+      "score_alert": "green",
+      "n_features_amber": 8,
+      "n_features_red": 5,
+      "feature_alert": "red",
+      "auc_alert": "green",
+      "overall_alert": "red",
+      "auc": 0.8301,
+      "auc_drop": -0.0214,
+      "top_drifting": [
+        {
+          "name": "original_interest_rate",
+          "psi": 8.2494,
+          "ks": 0.9313,
+          "chi2_stat": null,
+          "chi2_pval": null,
+          "alert": "red",
+          "is_categorical": false
+        },
+        {
+          "name": "channel",
+          "psi": 6.0793,
+          "ks": null,
+          "chi2_stat": 107303.02,
+          "chi2_pval": 0.0,
+          "alert": "red",
+          "is_categorical": true
+        },
+        {
+          "name": "dti_missing",
+          "psi": 0.7265,
+          "ks": 0.2629,
+          "chi2_stat": null,
+          "chi2_pval": null,
+          "alert": "red",
+          "is_categorical": false
+        },
+        {
+          "name": "original_upb",
+          "psi": 0.4402,
+          "ks": 0.2594,
+          "chi2_stat": null,
+          "chi2_pval": null,
+          "alert": "red",
+          "is_categorical": false
+        },
+        {
+          "name": "credit_score",
+          "psi": 0.358,
+          "ks": 0.2247,
+          "chi2_stat": null,
+          "chi2_pval": null,
+          "alert": "red",
+          "is_categorical": false
+        }
+      ]
+    },
+    {
+      "period": 2014,
+      "n_samples": 50000,
+      "default_rate_pct": 0.74,
+      "score_psi": 0.0243,
+      "score_alert": "green",
+      "n_features_amber": 9,
+      "n_features_red": 4,
+      "feature_alert": "red",
+      "auc_alert": "amber",
+      "overall_alert": "red",
+      "auc": 0.7877,
+      "auc_drop": 0.0209,
+      "top_drifting": [
+        {
+          "name": "original_interest_rate",
+          "psi": 8.3165,
+          "ks": 0.9257,
+          "chi2_stat": null,
+          "chi2_pval": null,
+          "alert": "red",
+          "is_categorical": false
+        },
+        {
+          "name": "channel",
+          "psi": 6.4624,
+          "ks": null,
+          "chi2_stat": 120816.64,
+          "chi2_pval": 0.0,
+          "alert": "red",
+          "is_categorical": true
+        },
+        {
+          "name": "original_upb",
+          "psi": 0.5224,
+          "ks": 0.2895,
+          "chi2_stat": null,
+          "chi2_pval": null,
+          "alert": "red",
+          "is_categorical": false
+        },
+        {
+          "name": "credit_score",
+          "psi": 0.2931,
+          "ks": 0.1913,
+          "chi2_stat": null,
+          "chi2_pval": null,
+          "alert": "red",
+          "is_categorical": false
+        },
+        {
+          "name": "dti_missing",
+          "psi": 0.2313,
+          "ks": 0.1214,
+          "chi2_stat": null,
+          "chi2_pval": null,
+          "alert": "amber",
+          "is_categorical": false
+        }
+      ]
+    },
+    {
+      "period": 2015,
+      "n_samples": 50000,
+      "default_rate_pct": 0.7,
+      "score_psi": 0.0467,
+      "score_alert": "green",
+      "n_features_amber": 6,
+      "n_features_red": 4,
+      "feature_alert": "red",
+      "auc_alert": "green",
+      "overall_alert": "red",
+      "auc": 0.8024,
+      "auc_drop": 0.0062,
+      "top_drifting": [
+        {
+          "name": "original_interest_rate",
+          "psi": 8.5997,
+          "ks": 0.9603,
+          "chi2_stat": null,
+          "chi2_pval": null,
+          "alert": "red",
+          "is_categorical": false
+        },
+        {
+          "name": "channel",
+          "psi": 6.4592,
+          "ks": null,
+          "chi2_stat": 120957.0,
+          "chi2_pval": 0.0,
+          "alert": "red",
+          "is_categorical": true
+        },
+        {
+          "name": "original_upb",
+          "psi": 0.7291,
+          "ks": 0.3414,
+          "chi2_stat": null,
+          "chi2_pval": null,
+          "alert": "red",
+          "is_categorical": false
+        },
+        {
+          "name": "credit_score",
+          "psi": 0.3582,
+          "ks": 0.2093,
+          "chi2_stat": null,
+          "chi2_pval": null,
+          "alert": "red",
+          "is_categorical": false
+        },
+        {
+          "name": "property_type",
+          "psi": 0.2028,
+          "ks": null,
+          "chi2_stat": 10402.47,
+          "chi2_pval": 0.0,
+          "alert": "amber",
+          "is_categorical": true
+        }
+      ]
+    },
+    {
+      "period": 2016,
+      "n_samples": 50000,
+      "default_rate_pct": 0.82,
+      "score_psi": 0.0575,
+      "score_alert": "green",
+      "n_features_amber": 7,
+      "n_features_red": 4,
+      "feature_alert": "red",
+      "auc_alert": "amber",
+      "overall_alert": "red",
+      "auc": 0.7866,
+      "auc_drop": 0.022,
+      "top_drifting": [
+        {
+          "name": "original_interest_rate",
+          "psi": 8.5359,
+          "ks": 0.9646,
+          "chi2_stat": null,
+          "chi2_pval": null,
+          "alert": "red",
+          "is_categorical": false
+        },
+        {
+          "name": "channel",
+          "psi": 6.4575,
+          "ks": null,
+          "chi2_stat": 120876.94,
+          "chi2_pval": 0.0,
+          "alert": "red",
+          "is_categorical": true
+        },
+        {
+          "name": "original_upb",
+          "psi": 0.9188,
+          "ks": 0.3876,
+          "chi2_stat": null,
+          "chi2_pval": null,
+          "alert": "red",
+          "is_categorical": false
+        },
+        {
+          "name": "credit_score",
+          "psi": 0.3357,
+          "ks": 0.194,
+          "chi2_stat": null,
+          "chi2_pval": null,
+          "alert": "red",
+          "is_categorical": false
+        },
+        {
+          "name": "property_type",
+          "psi": 0.2132,
+          "ks": null,
+          "chi2_stat": 10929.62,
+          "chi2_pval": 0.0,
+          "alert": "amber",
+          "is_categorical": true
+        }
+      ]
+    },
+    {
+      "period": 2017,
+      "n_samples": 50000,
+      "default_rate_pct": 1.04,
+      "score_psi": 0.0458,
+      "score_alert": "green",
+      "n_features_amber": 11,
+      "n_features_red": 4,
+      "feature_alert": "red",
+      "auc_alert": "amber",
+      "overall_alert": "red",
+      "auc": 0.7874,
+      "auc_drop": 0.0213,
+      "top_drifting": [
+        {
+          "name": "original_interest_rate",
+          "psi": 8.2125,
+          "ks": 0.9309,
+          "chi2_stat": null,
+          "chi2_pval": null,
+          "alert": "red",
+          "is_categorical": false
+        },
+        {
+          "name": "channel",
+          "psi": 6.567,
+          "ks": null,
+          "chi2_stat": 124543.82,
+          "chi2_pval": 0.0,
+          "alert": "red",
+          "is_categorical": true
+        },
+        {
+          "name": "original_upb",
+          "psi": 0.8326,
+          "ks": 0.3677,
+          "chi2_stat": null,
+          "chi2_pval": null,
+          "alert": "red",
+          "is_categorical": false
+        },
+        {
+          "name": "credit_score",
+          "psi": 0.2507,
+          "ks": 0.156,
+          "chi2_stat": null,
+          "chi2_pval": null,
+          "alert": "red",
+          "is_categorical": false
+        },
+        {
+          "name": "original_dti",
+          "psi": 0.2104,
+          "ks": 0.1617,
+          "chi2_stat": null,
+          "chi2_pval": null,
+          "alert": "amber",
+          "is_categorical": false
+        }
+      ]
+    },
+    {
+      "period": 2018,
+      "n_samples": 50000,
+      "default_rate_pct": 2.67,
+      "score_psi": 0.0575,
+      "score_alert": "green",
+      "n_features_amber": 12,
+      "n_features_red": 6,
+      "feature_alert": "red",
+      "auc_alert": "amber",
+      "overall_alert": "red",
+      "auc": 0.7235,
+      "auc_drop": 0.0852,
+      "top_drifting": [
+        {
+          "name": "channel",
+          "psi": 6.7499,
+          "ks": null,
+          "chi2_stat": 130952.02,
+          "chi2_pval": 0.0,
+          "alert": "red",
+          "is_categorical": true
+        },
+        {
+          "name": "original_interest_rate",
+          "psi": 6.6899,
+          "ks": 0.828,
+          "chi2_stat": null,
+          "chi2_pval": null,
+          "alert": "red",
+          "is_categorical": false
+        },
+        {
+          "name": "original_upb",
+          "psi": 0.8519,
+          "ks": 0.3723,
+          "chi2_stat": null,
+          "chi2_pval": null,
+          "alert": "red",
+          "is_categorical": false
+        },
+        {
+          "name": "loan_purpose",
+          "psi": 0.433,
+          "ks": null,
+          "chi2_stat": 15909.92,
+          "chi2_pval": 0.0,
+          "alert": "red",
+          "is_categorical": true
+        },
+        {
+          "name": "credit_score",
+          "psi": 0.2786,
+          "ks": 0.16,
+          "chi2_stat": null,
+          "chi2_pval": null,
+          "alert": "red",
+          "is_categorical": false
+        }
+      ]
+    },
+    {
+      "period": 2019,
+      "n_samples": 50000,
+      "default_rate_pct": 4.63,
+      "score_psi": 0.0575,
+      "score_alert": "green",
+      "n_features_amber": 12,
+      "n_features_red": 5,
+      "feature_alert": "red",
+      "auc_alert": "amber",
+      "overall_alert": "red",
+      "auc": 0.6795,
+      "auc_drop": 0.1292,
+      "top_drifting": [
+        {
+          "name": "channel",
+          "psi": 7.0631,
+          "ks": null,
+          "chi2_stat": 142011.78,
+          "chi2_pval": 0.0,
+          "alert": "red",
+          "is_categorical": true
+        },
+        {
+          "name": "original_interest_rate",
+          "psi": 7.0348,
+          "ks": 0.8794,
+          "chi2_stat": null,
+          "chi2_pval": null,
+          "alert": "red",
+          "is_categorical": false
+        },
+        {
+          "name": "original_upb",
+          "psi": 1.1713,
+          "ks": 0.4402,
+          "chi2_stat": null,
+          "chi2_pval": null,
+          "alert": "red",
+          "is_categorical": false
+        },
+        {
+          "name": "credit_score",
+          "psi": 0.344,
+          "ks": 0.1877,
+          "chi2_stat": null,
+          "chi2_pval": null,
+          "alert": "red",
+          "is_categorical": false
+        },
+        {
+          "name": "property_type",
+          "psi": 0.2512,
+          "ks": null,
+          "chi2_stat": 13009.42,
+          "chi2_pval": 0.0,
+          "alert": "red",
+          "is_categorical": true
+        }
+      ]
+    },
+    {
+      "period": 2020,
+      "n_samples": 50000,
+      "default_rate_pct": 1.66,
+      "score_psi": 0.0575,
+      "score_alert": "green",
+      "n_features_amber": 7,
+      "n_features_red": 4,
+      "feature_alert": "red",
+      "auc_alert": "amber",
+      "overall_alert": "red",
+      "auc": 0.7029,
+      "auc_drop": 0.1057,
+      "top_drifting": [
+        {
+          "name": "original_interest_rate",
+          "psi": 7.7778,
+          "ks": 0.9771,
+          "chi2_stat": null,
+          "chi2_pval": null,
+          "alert": "red",
+          "is_categorical": false
+        },
+        {
+          "name": "channel",
+          "psi": 6.666,
+          "ks": null,
+          "chi2_stat": 128561.5,
+          "chi2_pval": 0.0,
+          "alert": "red",
+          "is_categorical": true
+        },
+        {
+          "name": "original_upb",
+          "psi": 1.7046,
+          "ks": 0.5249,
+          "chi2_stat": null,
+          "chi2_pval": null,
+          "alert": "red",
+          "is_categorical": false
+        },
+        {
+          "name": "credit_score",
+          "psi": 0.6103,
+          "ks": 0.2721,
+          "chi2_stat": null,
+          "chi2_pval": null,
+          "alert": "red",
+          "is_categorical": false
+        },
+        {
+          "name": "property_type",
+          "psi": 0.2325,
+          "ks": null,
+          "chi2_stat": 12117.39,
+          "chi2_pval": 0.0,
+          "alert": "amber",
+          "is_categorical": true
+        }
+      ]
+    }
+  ],
+  "alert_summary": {
+    "green": 1,
+    "amber": 3,
+    "red": 13
+  }
+}

@@ -1,0 +1,1414 @@
+{
+  "dataset": "sba",
+  "n_periods": 23,
+  "periods": [
+    {
+      "period": 1996,
+      "n_samples": 39744,
+      "default_rate_pct": 8.13,
+      "score_psi": 0.0033,
+      "score_alert": "green",
+      "n_features_amber": 4,
+      "n_features_red": 4,
+      "feature_alert": "red",
+      "auc_alert": "green",
+      "overall_alert": "red",
+      "auc": 0.944,
+      "auc_drop": 0.0,
+      "top_drifting": [
+        {
+          "name": "sba_guaranteed_pct",
+          "psi": 4.8363,
+          "ks": 0.6808,
+          "chi2_stat": null,
+          "chi2_pval": null,
+          "alert": "red",
+          "is_categorical": false
+        },
+        {
+          "name": "CollateralInd",
+          "psi": 0.8267,
+          "ks": null,
+          "chi2_stat": 5066.11,
+          "chi2_pval": 0.0,
+          "alert": "red",
+          "is_categorical": true
+        },
+        {
+          "name": "ProcessingMethod",
+          "psi": 0.7404,
+          "ks": null,
+          "chi2_stat": 22660.24,
+          "chi2_pval": 0.0,
+          "alert": "red",
+          "is_categorical": true
+        },
+        {
+          "name": "SBAGuaranteedApproval",
+          "psi": 0.2835,
+          "ks": 0.2366,
+          "chi2_stat": null,
+          "chi2_pval": null,
+          "alert": "red",
+          "is_categorical": false
+        },
+        {
+          "name": "GrossApproval",
+          "psi": 0.0961,
+          "ks": 0.156,
+          "chi2_stat": null,
+          "chi2_pval": null,
+          "alert": "green",
+          "is_categorical": false
+        }
+      ]
+    },
+    {
+      "period": 1997,
+      "n_samples": 38823,
+      "default_rate_pct": 7.2,
+      "score_psi": 0.0043,
+      "score_alert": "green",
+      "n_features_amber": 5,
+      "n_features_red": 3,
+      "feature_alert": "red",
+      "auc_alert": "amber",
+      "overall_alert": "red",
+      "auc": 0.8686,
+      "auc_drop": 0.0754,
+      "top_drifting": [
+        {
+          "name": "sba_guaranteed_pct",
+          "psi": 3.6209,
+          "ks": 0.6737,
+          "chi2_stat": null,
+          "chi2_pval": null,
+          "alert": "red",
+          "is_categorical": false
+        },
+        {
+          "name": "ProcessingMethod",
+          "psi": 0.8901,
+          "ks": null,
+          "chi2_stat": 27947.9,
+          "chi2_pval": 0.0,
+          "alert": "red",
+          "is_categorical": true
+        },
+        {
+          "name": "CollateralInd",
+          "psi": 0.8263,
+          "ks": null,
+          "chi2_stat": 4940.14,
+          "chi2_pval": 0.0,
+          "alert": "red",
+          "is_categorical": true
+        },
+        {
+          "name": "SBAGuaranteedApproval",
+          "psi": 0.1633,
+          "ks": 0.1569,
+          "chi2_stat": null,
+          "chi2_pval": null,
+          "alert": "amber",
+          "is_categorical": false
+        },
+        {
+          "name": "ProjectState",
+          "psi": 0.1013,
+          "ks": null,
+          "chi2_stat": 3079.21,
+          "chi2_pval": 0.0,
+          "alert": "amber",
+          "is_categorical": true
+        }
+      ]
+    },
+    {
+      "period": 1998,
+      "n_samples": 36018,
+      "default_rate_pct": 7.7,
+      "score_psi": 0.0115,
+      "score_alert": "green",
+      "n_features_amber": 5,
+      "n_features_red": 3,
+      "feature_alert": "red",
+      "auc_alert": "amber",
+      "overall_alert": "red",
+      "auc": 0.7237,
+      "auc_drop": 0.2203,
+      "top_drifting": [
+        {
+          "name": "sba_guaranteed_pct",
+          "psi": 3.482,
+          "ks": 0.6732,
+          "chi2_stat": null,
+          "chi2_pval": null,
+          "alert": "red",
+          "is_categorical": false
+        },
+        {
+          "name": "ProcessingMethod",
+          "psi": 1.1546,
+          "ks": null,
+          "chi2_stat": 35148.13,
+          "chi2_pval": 0.0,
+          "alert": "red",
+          "is_categorical": true
+        },
+        {
+          "name": "CollateralInd",
+          "psi": 0.8262,
+          "ks": null,
+          "chi2_stat": 4586.21,
+          "chi2_pval": 0.0,
+          "alert": "red",
+          "is_categorical": true
+        },
+        {
+          "name": "SBAGuaranteedApproval",
+          "psi": 0.1503,
+          "ks": 0.1387,
+          "chi2_stat": null,
+          "chi2_pval": null,
+          "alert": "amber",
+          "is_categorical": false
+        },
+        {
+          "name": "ProjectState",
+          "psi": 0.124,
+          "ks": null,
+          "chi2_stat": 3448.29,
+          "chi2_pval": 0.0,
+          "alert": "amber",
+          "is_categorical": true
+        }
+      ]
+    },
+    {
+      "period": 1999,
+      "n_samples": 37097,
+      "default_rate_pct": 7.67,
+      "score_psi": 0.0148,
+      "score_alert": "green",
+      "n_features_amber": 8,
+      "n_features_red": 4,
+      "feature_alert": "red",
+      "auc_alert": "amber",
+      "overall_alert": "red",
+      "auc": 0.6307,
+      "auc_drop": 0.3133,
+      "top_drifting": [
+        {
+          "name": "sba_guaranteed_pct",
+          "psi": 3.5776,
+          "ks": 0.6741,
+          "chi2_stat": null,
+          "chi2_pval": null,
+          "alert": "red",
+          "is_categorical": false
+        },
+        {
+          "name": "JobsSupported",
+          "psi": 2.3282,
+          "ks": 0.4203,
+          "chi2_stat": null,
+          "chi2_pval": null,
+          "alert": "red",
+          "is_categorical": false
+        },
+        {
+          "name": "ProcessingMethod",
+          "psi": 1.2891,
+          "ks": null,
+          "chi2_stat": 39116.32,
+          "chi2_pval": 0.0,
+          "alert": "red",
+          "is_categorical": true
+        },
+        {
+          "name": "CollateralInd",
+          "psi": 0.8257,
+          "ks": null,
+          "chi2_stat": 4704.51,
+          "chi2_pval": 0.0,
+          "alert": "red",
+          "is_categorical": true
+        },
+        {
+          "name": "naics_sector",
+          "psi": 0.2027,
+          "ks": null,
+          "chi2_stat": 7357.33,
+          "chi2_pval": 0.0,
+          "alert": "amber",
+          "is_categorical": true
+        }
+      ]
+    },
+    {
+      "period": 2000,
+      "n_samples": 37600,
+      "default_rate_pct": 6.31,
+      "score_psi": 0.01,
+      "score_alert": "green",
+      "n_features_amber": 8,
+      "n_features_red": 4,
+      "feature_alert": "red",
+      "auc_alert": "amber",
+      "overall_alert": "red",
+      "auc": 0.6125,
+      "auc_drop": 0.3315,
+      "top_drifting": [
+        {
+          "name": "sba_guaranteed_pct",
+          "psi": 3.6241,
+          "ks": 0.6742,
+          "chi2_stat": null,
+          "chi2_pval": null,
+          "alert": "red",
+          "is_categorical": false
+        },
+        {
+          "name": "JobsSupported",
+          "psi": 3.3249,
+          "ks": 0.5529,
+          "chi2_stat": null,
+          "chi2_pval": null,
+          "alert": "red",
+          "is_categorical": false
+        },
+        {
+          "name": "ProcessingMethod",
+          "psi": 1.6775,
+          "ks": null,
+          "chi2_stat": 49480.06,
+          "chi2_pval": 0.0,
+          "alert": "red",
+          "is_categorical": true
+        },
+        {
+          "name": "CollateralInd",
+          "psi": 0.8261,
+          "ks": null,
+          "chi2_stat": 4778.41,
+          "chi2_pval": 0.0,
+          "alert": "red",
+          "is_categorical": true
+        },
+        {
+          "name": "RevolverStatus",
+          "psi": 0.1896,
+          "ks": null,
+          "chi2_stat": 5275.11,
+          "chi2_pval": 0.0,
+          "alert": "amber",
+          "is_categorical": true
+        }
+      ]
+    },
+    {
+      "period": 2001,
+      "n_samples": 37323,
+      "default_rate_pct": 5.85,
+      "score_psi": 0.0096,
+      "score_alert": "green",
+      "n_features_amber": 9,
+      "n_features_red": 6,
+      "feature_alert": "red",
+      "auc_alert": "amber",
+      "overall_alert": "red",
+      "auc": 0.7694,
+      "auc_drop": 0.1746,
+      "top_drifting": [
+        {
+          "name": "naics_sector",
+          "psi": 4.0119,
+          "ks": null,
+          "chi2_stat": 50289.5,
+          "chi2_pval": 0.0,
+          "alert": "red",
+          "is_categorical": true
+        },
+        {
+          "name": "JobsSupported",
+          "psi": 3.7019,
+          "ks": 0.5935,
+          "chi2_stat": null,
+          "chi2_pval": null,
+          "alert": "red",
+          "is_categorical": false
+        },
+        {
+          "name": "sba_guaranteed_pct",
+          "psi": 2.564,
+          "ks": 0.4903,
+          "chi2_stat": null,
+          "chi2_pval": null,
+          "alert": "red",
+          "is_categorical": false
+        },
+        {
+          "name": "ProcessingMethod",
+          "psi": 2.1034,
+          "ks": null,
+          "chi2_stat": 58487.21,
+          "chi2_pval": 0.0,
+          "alert": "red",
+          "is_categorical": true
+        },
+        {
+          "name": "CollateralInd",
+          "psi": 0.8341,
+          "ks": null,
+          "chi2_stat": 4983.04,
+          "chi2_pval": 0.0,
+          "alert": "red",
+          "is_categorical": true
+        }
+      ]
+    },
+    {
+      "period": 2002,
+      "n_samples": 45184,
+      "default_rate_pct": 6.44,
+      "score_psi": 0.0163,
+      "score_alert": "green",
+      "n_features_amber": 10,
+      "n_features_red": 7,
+      "feature_alert": "red",
+      "auc_alert": "amber",
+      "overall_alert": "red",
+      "auc": 0.8944,
+      "auc_drop": 0.0496,
+      "top_drifting": [
+        {
+          "name": "naics_sector",
+          "psi": 5.6285,
+          "ks": null,
+          "chi2_stat": 57897.95,
+          "chi2_pval": 0.0,
+          "alert": "red",
+          "is_categorical": true
+        },
+        {
+          "name": "JobsSupported",
+          "psi": 4.2509,
+          "ks": 0.6455,
+          "chi2_stat": null,
+          "chi2_pval": null,
+          "alert": "red",
+          "is_categorical": false
+        },
+        {
+          "name": "sba_guaranteed_pct",
+          "psi": 3.5963,
+          "ks": 0.5107,
+          "chi2_stat": null,
+          "chi2_pval": null,
+          "alert": "red",
+          "is_categorical": false
+        },
+        {
+          "name": "ProcessingMethod",
+          "psi": 2.5703,
+          "ks": null,
+          "chi2_stat": 72296.29,
+          "chi2_pval": 0.0,
+          "alert": "red",
+          "is_categorical": true
+        },
+        {
+          "name": "CollateralInd",
+          "psi": 0.8653,
+          "ks": null,
+          "chi2_stat": 6891.67,
+          "chi2_pval": 0.0,
+          "alert": "red",
+          "is_categorical": true
+        }
+      ]
+    },
+    {
+      "period": 2003,
+      "n_samples": 59119,
+      "default_rate_pct": 7.62,
+      "score_psi": 0.0346,
+      "score_alert": "green",
+      "n_features_amber": 11,
+      "n_features_red": 10,
+      "feature_alert": "red",
+      "auc_alert": "amber",
+      "overall_alert": "red",
+      "auc": 0.9012,
+      "auc_drop": 0.0428,
+      "top_drifting": [
+        {
+          "name": "naics_sector",
+          "psi": 5.6236,
+          "ks": null,
+          "chi2_stat": 68450.81,
+          "chi2_pval": 0.0,
+          "alert": "red",
+          "is_categorical": true
+        },
+        {
+          "name": "JobsSupported",
+          "psi": 5.3499,
+          "ks": 0.74,
+          "chi2_stat": null,
+          "chi2_pval": null,
+          "alert": "red",
+          "is_categorical": false
+        },
+        {
+          "name": "sba_guaranteed_pct",
+          "psi": 4.1606,
+          "ks": 0.5541,
+          "chi2_stat": null,
+          "chi2_pval": null,
+          "alert": "red",
+          "is_categorical": false
+        },
+        {
+          "name": "ProcessingMethod",
+          "psi": 3.8683,
+          "ks": null,
+          "chi2_stat": 104433.36,
+          "chi2_pval": 0.0,
+          "alert": "red",
+          "is_categorical": true
+        },
+        {
+          "name": "RevolverStatus",
+          "psi": 1.7301,
+          "ks": null,
+          "chi2_stat": 37337.64,
+          "chi2_pval": 0.0,
+          "alert": "red",
+          "is_categorical": true
+        }
+      ]
+    },
+    {
+      "period": 2004,
+      "n_samples": 71283,
+      "default_rate_pct": 9.26,
+      "score_psi": 0.0468,
+      "score_alert": "green",
+      "n_features_amber": 12,
+      "n_features_red": 10,
+      "feature_alert": "red",
+      "auc_alert": "amber",
+      "overall_alert": "red",
+      "auc": 0.8748,
+      "auc_drop": 0.0693,
+      "top_drifting": [
+        {
+          "name": "naics_sector",
+          "psi": 5.6221,
+          "ks": null,
+          "chi2_stat": 77182.98,
+          "chi2_pval": 0.0,
+          "alert": "red",
+          "is_categorical": true
+        },
+        {
+          "name": "JobsSupported",
+          "psi": 5.12,
+          "ks": 0.7183,
+          "chi2_stat": null,
+          "chi2_pval": null,
+          "alert": "red",
+          "is_categorical": false
+        },
+        {
+          "name": "ProcessingMethod",
+          "psi": 4.6303,
+          "ks": null,
+          "chi2_stat": 125223.19,
+          "chi2_pval": 0.0,
+          "alert": "red",
+          "is_categorical": true
+        },
+        {
+          "name": "sba_guaranteed_pct",
+          "psi": 4.367,
+          "ks": 0.5893,
+          "chi2_stat": null,
+          "chi2_pval": null,
+          "alert": "red",
+          "is_categorical": false
+        },
+        {
+          "name": "RevolverStatus",
+          "psi": 2.0049,
+          "ks": null,
+          "chi2_stat": 43267.79,
+          "chi2_pval": 0.0,
+          "alert": "red",
+          "is_categorical": true
+        }
+      ]
+    },
+    {
+      "period": 2005,
+      "n_samples": 84436,
+      "default_rate_pct": 13.19,
+      "score_psi": 0.1231,
+      "score_alert": "amber",
+      "n_features_amber": 12,
+      "n_features_red": 10,
+      "feature_alert": "red",
+      "auc_alert": "amber",
+      "overall_alert": "red",
+      "auc": 0.8241,
+      "auc_drop": 0.12,
+      "top_drifting": [
+        {
+          "name": "JobsSupported",
+          "psi": 5.9017,
+          "ks": 0.786,
+          "chi2_stat": null,
+          "chi2_pval": null,
+          "alert": "red",
+          "is_categorical": false
+        },
+        {
+          "name": "naics_sector",
+          "psi": 5.63,
+          "ks": null,
+          "chi2_stat": 86738.0,
+          "chi2_pval": 0.0,
+          "alert": "red",
+          "is_categorical": true
+        },
+        {
+          "name": "ProcessingMethod",
+          "psi": 5.4843,
+          "ks": null,
+          "chi2_stat": 149204.94,
+          "chi2_pval": 0.0,
+          "alert": "red",
+          "is_categorical": true
+        },
+        {
+          "name": "sba_guaranteed_pct",
+          "psi": 4.687,
+          "ks": 0.6242,
+          "chi2_stat": null,
+          "chi2_pval": null,
+          "alert": "red",
+          "is_categorical": false
+        },
+        {
+          "name": "RevolverStatus",
+          "psi": 2.4734,
+          "ks": null,
+          "chi2_stat": 53423.26,
+          "chi2_pval": 0.0,
+          "alert": "red",
+          "is_categorical": true
+        }
+      ]
+    },
+    {
+      "period": 2006,
+      "n_samples": 86570,
+      "default_rate_pct": 22.28,
+      "score_psi": 0.3441,
+      "score_alert": "red",
+      "n_features_amber": 14,
+      "n_features_red": 11,
+      "feature_alert": "red",
+      "auc_alert": "amber",
+      "overall_alert": "red",
+      "auc": 0.7828,
+      "auc_drop": 0.1612,
+      "top_drifting": [
+        {
+          "name": "JobsSupported",
+          "psi": 8.0301,
+          "ks": 0.9208,
+          "chi2_stat": null,
+          "chi2_pval": null,
+          "alert": "red",
+          "is_categorical": false
+        },
+        {
+          "name": "ProcessingMethod",
+          "psi": 7.7139,
+          "ks": null,
+          "chi2_stat": 173860.54,
+          "chi2_pval": 0.0,
+          "alert": "red",
+          "is_categorical": true
+        },
+        {
+          "name": "naics_sector",
+          "psi": 5.6596,
+          "ks": null,
+          "chi2_stat": 89581.79,
+          "chi2_pval": 0.0,
+          "alert": "red",
+          "is_categorical": true
+        },
+        {
+          "name": "sba_guaranteed_pct",
+          "psi": 5.0019,
+          "ks": 0.6734,
+          "chi2_stat": null,
+          "chi2_pval": null,
+          "alert": "red",
+          "is_categorical": false
+        },
+        {
+          "name": "RevolverStatus",
+          "psi": 3.2217,
+          "ks": null,
+          "chi2_stat": 69097.95,
+          "chi2_pval": 0.0,
+          "alert": "red",
+          "is_categorical": true
+        }
+      ]
+    },
+    {
+      "period": 2007,
+      "n_samples": 88270,
+      "default_rate_pct": 27.54,
+      "score_psi": 0.5647,
+      "score_alert": "red",
+      "n_features_amber": 12,
+      "n_features_red": 11,
+      "feature_alert": "red",
+      "auc_alert": "amber",
+      "overall_alert": "red",
+      "auc": 0.7357,
+      "auc_drop": 0.2084,
+      "top_drifting": [
+        {
+          "name": "JobsSupported",
+          "psi": 8.7519,
+          "ks": 0.9502,
+          "chi2_stat": null,
+          "chi2_pval": null,
+          "alert": "red",
+          "is_categorical": false
+        },
+        {
+          "name": "ProcessingMethod",
+          "psi": 8.1875,
+          "ks": null,
+          "chi2_stat": 180355.66,
+          "chi2_pval": 0.0,
+          "alert": "red",
+          "is_categorical": true
+        },
+        {
+          "name": "naics_sector",
+          "psi": 5.6878,
+          "ks": null,
+          "chi2_stat": 91681.21,
+          "chi2_pval": 0.0,
+          "alert": "red",
+          "is_categorical": true
+        },
+        {
+          "name": "sba_guaranteed_pct",
+          "psi": 4.9159,
+          "ks": 0.6676,
+          "chi2_stat": null,
+          "chi2_pval": null,
+          "alert": "red",
+          "is_categorical": false
+        },
+        {
+          "name": "BusinessAge",
+          "psi": 3.5158,
+          "ks": null,
+          "chi2_stat": 94570.91,
+          "chi2_pval": 0.0,
+          "alert": "red",
+          "is_categorical": true
+        }
+      ]
+    },
+    {
+      "period": 2008,
+      "n_samples": 61636,
+      "default_rate_pct": 21.25,
+      "score_psi": 0.5468,
+      "score_alert": "red",
+      "n_features_amber": 12,
+      "n_features_red": 11,
+      "feature_alert": "red",
+      "auc_alert": "amber",
+      "overall_alert": "red",
+      "auc": 0.7185,
+      "auc_drop": 0.2255,
+      "top_drifting": [
+        {
+          "name": "JobsSupported",
+          "psi": 8.7196,
+          "ks": 0.9524,
+          "chi2_stat": null,
+          "chi2_pval": null,
+          "alert": "red",
+          "is_categorical": false
+        },
+        {
+          "name": "ProcessingMethod",
+          "psi": 8.1718,
+          "ks": null,
+          "chi2_stat": 150807.69,
+          "chi2_pval": 0.0,
+          "alert": "red",
+          "is_categorical": true
+        },
+        {
+          "name": "naics_sector",
+          "psi": 5.6728,
+          "ks": null,
+          "chi2_stat": 72355.59,
+          "chi2_pval": 0.0,
+          "alert": "red",
+          "is_categorical": true
+        },
+        {
+          "name": "sba_guaranteed_pct",
+          "psi": 4.5775,
+          "ks": 0.6091,
+          "chi2_stat": null,
+          "chi2_pval": null,
+          "alert": "red",
+          "is_categorical": false
+        },
+        {
+          "name": "BusinessAge",
+          "psi": 3.7496,
+          "ks": null,
+          "chi2_stat": 94297.23,
+          "chi2_pval": 0.0,
+          "alert": "red",
+          "is_categorical": true
+        }
+      ]
+    },
+    {
+      "period": 2009,
+      "n_samples": 36636,
+      "default_rate_pct": 8.39,
+      "score_psi": 0.6867,
+      "score_alert": "red",
+      "n_features_amber": 15,
+      "n_features_red": 13,
+      "feature_alert": "red",
+      "auc_alert": "amber",
+      "overall_alert": "red",
+      "auc": 0.6187,
+      "auc_drop": 0.3254,
+      "top_drifting": [
+        {
+          "name": "interest_rate_missing",
+          "psi": 10.0409,
+          "ks": 0.8892,
+          "chi2_stat": null,
+          "chi2_pval": null,
+          "alert": "red",
+          "is_categorical": false
+        },
+        {
+          "name": "FixedorVariableInterestInd",
+          "psi": 9.7122,
+          "ks": null,
+          "chi2_stat": 154154.08,
+          "chi2_pval": 0.0,
+          "alert": "red",
+          "is_categorical": true
+        },
+        {
+          "name": "JobsSupported",
+          "psi": 8.6317,
+          "ks": 0.9545,
+          "chi2_stat": null,
+          "chi2_pval": null,
+          "alert": "red",
+          "is_categorical": false
+        },
+        {
+          "name": "InitialInterestRate",
+          "psi": 7.0351,
+          "ks": 0.8892,
+          "chi2_stat": null,
+          "chi2_pval": null,
+          "alert": "red",
+          "is_categorical": false
+        },
+        {
+          "name": "ProcessingMethod",
+          "psi": 6.7565,
+          "ks": null,
+          "chi2_stat": 117404.3,
+          "chi2_pval": 0.0,
+          "alert": "red",
+          "is_categorical": true
+        }
+      ]
+    },
+    {
+      "period": 2010,
+      "n_samples": 39913,
+      "default_rate_pct": 4.9,
+      "score_psi": 0.9421,
+      "score_alert": "red",
+      "n_features_amber": 15,
+      "n_features_red": 13,
+      "feature_alert": "red",
+      "auc_alert": "amber",
+      "overall_alert": "red",
+      "auc": 0.5987,
+      "auc_drop": 0.3453,
+      "top_drifting": [
+        {
+          "name": "interest_rate_missing",
+          "psi": 18.4188,
+          "ks": 1.0,
+          "chi2_stat": null,
+          "chi2_pval": null,
+          "alert": "red",
+          "is_categorical": false
+        },
+        {
+          "name": "FixedorVariableInterestInd",
+          "psi": 17.9976,
+          "ks": null,
+          "chi2_stat": 181598.0,
+          "chi2_pval": 0.0,
+          "alert": "red",
+          "is_categorical": true
+        },
+        {
+          "name": "InitialInterestRate",
+          "psi": 15.1327,
+          "ks": 1.0,
+          "chi2_stat": null,
+          "chi2_pval": null,
+          "alert": "red",
+          "is_categorical": false
+        },
+        {
+          "name": "JobsSupported",
+          "psi": 8.4886,
+          "ks": 0.9524,
+          "chi2_stat": null,
+          "chi2_pval": null,
+          "alert": "red",
+          "is_categorical": false
+        },
+        {
+          "name": "ProcessingMethod",
+          "psi": 6.2737,
+          "ks": null,
+          "chi2_stat": 114031.37,
+          "chi2_pval": 0.0,
+          "alert": "red",
+          "is_categorical": true
+        }
+      ]
+    },
+    {
+      "period": 2011,
+      "n_samples": 45628,
+      "default_rate_pct": 3.64,
+      "score_psi": 0.9992,
+      "score_alert": "red",
+      "n_features_amber": 15,
+      "n_features_red": 13,
+      "feature_alert": "red",
+      "auc_alert": "amber",
+      "overall_alert": "red",
+      "auc": 0.6799,
+      "auc_drop": 0.2642,
+      "top_drifting": [
+        {
+          "name": "interest_rate_missing",
+          "psi": 18.4188,
+          "ks": 1.0,
+          "chi2_stat": null,
+          "chi2_pval": null,
+          "alert": "red",
+          "is_categorical": false
+        },
+        {
+          "name": "FixedorVariableInterestInd",
+          "psi": 17.9232,
+          "ks": null,
+          "chi2_stat": 187313.0,
+          "chi2_pval": 0.0,
+          "alert": "red",
+          "is_categorical": true
+        },
+        {
+          "name": "InitialInterestRate",
+          "psi": 14.7472,
+          "ks": 1.0,
+          "chi2_stat": null,
+          "chi2_pval": null,
+          "alert": "red",
+          "is_categorical": false
+        },
+        {
+          "name": "JobsSupported",
+          "psi": 7.1175,
+          "ks": 0.8972,
+          "chi2_stat": null,
+          "chi2_pval": null,
+          "alert": "red",
+          "is_categorical": false
+        },
+        {
+          "name": "ProcessingMethod",
+          "psi": 6.0659,
+          "ks": null,
+          "chi2_stat": 117450.41,
+          "chi2_pval": 0.0,
+          "alert": "red",
+          "is_categorical": true
+        }
+      ]
+    },
+    {
+      "period": 2012,
+      "n_samples": 38889,
+      "default_rate_pct": 3.28,
+      "score_psi": 1.1053,
+      "score_alert": "red",
+      "n_features_amber": 16,
+      "n_features_red": 12,
+      "feature_alert": "red",
+      "auc_alert": "amber",
+      "overall_alert": "red",
+      "auc": 0.7147,
+      "auc_drop": 0.2294,
+      "top_drifting": [
+        {
+          "name": "interest_rate_missing",
+          "psi": 18.4188,
+          "ks": 1.0,
+          "chi2_stat": null,
+          "chi2_pval": null,
+          "alert": "red",
+          "is_categorical": false
+        },
+        {
+          "name": "FixedorVariableInterestInd",
+          "psi": 17.896,
+          "ks": null,
+          "chi2_stat": 180574.0,
+          "chi2_pval": 0.0,
+          "alert": "red",
+          "is_categorical": true
+        },
+        {
+          "name": "InitialInterestRate",
+          "psi": 14.7161,
+          "ks": 1.0,
+          "chi2_stat": null,
+          "chi2_pval": null,
+          "alert": "red",
+          "is_categorical": false
+        },
+        {
+          "name": "BusinessAge",
+          "psi": 7.2525,
+          "ks": null,
+          "chi2_stat": 145816.83,
+          "chi2_pval": 0.0,
+          "alert": "red",
+          "is_categorical": true
+        },
+        {
+          "name": "JobsSupported",
+          "psi": 6.3783,
+          "ks": 0.8487,
+          "chi2_stat": null,
+          "chi2_pval": null,
+          "alert": "red",
+          "is_categorical": false
+        }
+      ]
+    },
+    {
+      "period": 2013,
+      "n_samples": 40416,
+      "default_rate_pct": 3.07,
+      "score_psi": 1.0258,
+      "score_alert": "red",
+      "n_features_amber": 15,
+      "n_features_red": 12,
+      "feature_alert": "red",
+      "auc_alert": "amber",
+      "overall_alert": "red",
+      "auc": 0.728,
+      "auc_drop": 0.216,
+      "top_drifting": [
+        {
+          "name": "interest_rate_missing",
+          "psi": 18.4188,
+          "ks": 1.0,
+          "chi2_stat": null,
+          "chi2_pval": null,
+          "alert": "red",
+          "is_categorical": false
+        },
+        {
+          "name": "FixedorVariableInterestInd",
+          "psi": 17.8843,
+          "ks": null,
+          "chi2_stat": 182101.0,
+          "chi2_pval": 0.0,
+          "alert": "red",
+          "is_categorical": true
+        },
+        {
+          "name": "InitialInterestRate",
+          "psi": 14.7295,
+          "ks": 1.0,
+          "chi2_stat": null,
+          "chi2_pval": null,
+          "alert": "red",
+          "is_categorical": false
+        },
+        {
+          "name": "BusinessAge",
+          "psi": 7.3372,
+          "ks": null,
+          "chi2_stat": 147679.28,
+          "chi2_pval": 0.0,
+          "alert": "red",
+          "is_categorical": true
+        },
+        {
+          "name": "ProcessingMethod",
+          "psi": 6.4079,
+          "ks": null,
+          "chi2_stat": 119594.33,
+          "chi2_pval": 0.0,
+          "alert": "red",
+          "is_categorical": true
+        }
+      ]
+    },
+    {
+      "period": 2014,
+      "n_samples": 45962,
+      "default_rate_pct": 3.51,
+      "score_psi": 1.0756,
+      "score_alert": "red",
+      "n_features_amber": 15,
+      "n_features_red": 13,
+      "feature_alert": "red",
+      "auc_alert": "amber",
+      "overall_alert": "red",
+      "auc": 0.718,
+      "auc_drop": 0.2261,
+      "top_drifting": [
+        {
+          "name": "interest_rate_missing",
+          "psi": 18.4188,
+          "ks": 1.0,
+          "chi2_stat": null,
+          "chi2_pval": null,
+          "alert": "red",
+          "is_categorical": false
+        },
+        {
+          "name": "FixedorVariableInterestInd",
+          "psi": 17.8586,
+          "ks": null,
+          "chi2_stat": 187647.0,
+          "chi2_pval": 0.0,
+          "alert": "red",
+          "is_categorical": true
+        },
+        {
+          "name": "InitialInterestRate",
+          "psi": 14.7169,
+          "ks": 1.0,
+          "chi2_stat": null,
+          "chi2_pval": null,
+          "alert": "red",
+          "is_categorical": false
+        },
+        {
+          "name": "BusinessAge",
+          "psi": 7.2304,
+          "ks": null,
+          "chi2_stat": 150680.91,
+          "chi2_pval": 0.0,
+          "alert": "red",
+          "is_categorical": true
+        },
+        {
+          "name": "ProcessingMethod",
+          "psi": 7.1672,
+          "ks": null,
+          "chi2_stat": 133437.24,
+          "chi2_pval": 0.0,
+          "alert": "red",
+          "is_categorical": true
+        }
+      ]
+    },
+    {
+      "period": 2015,
+      "n_samples": 55421,
+      "default_rate_pct": 3.85,
+      "score_psi": 1.0404,
+      "score_alert": "red",
+      "n_features_amber": 15,
+      "n_features_red": 15,
+      "feature_alert": "red",
+      "auc_alert": "amber",
+      "overall_alert": "red",
+      "auc": 0.716,
+      "auc_drop": 0.2281,
+      "top_drifting": [
+        {
+          "name": "interest_rate_missing",
+          "psi": 18.4188,
+          "ks": 1.0,
+          "chi2_stat": null,
+          "chi2_pval": null,
+          "alert": "red",
+          "is_categorical": false
+        },
+        {
+          "name": "FixedorVariableInterestInd",
+          "psi": 17.8744,
+          "ks": null,
+          "chi2_stat": 197106.0,
+          "chi2_pval": 0.0,
+          "alert": "red",
+          "is_categorical": true
+        },
+        {
+          "name": "InitialInterestRate",
+          "psi": 14.7268,
+          "ks": 1.0,
+          "chi2_stat": null,
+          "chi2_pval": null,
+          "alert": "red",
+          "is_categorical": false
+        },
+        {
+          "name": "ProcessingMethod",
+          "psi": 7.2295,
+          "ks": null,
+          "chi2_stat": 141197.72,
+          "chi2_pval": 0.0,
+          "alert": "red",
+          "is_categorical": true
+        },
+        {
+          "name": "BusinessAge",
+          "psi": 7.1644,
+          "ks": null,
+          "chi2_stat": 154548.66,
+          "chi2_pval": 0.0,
+          "alert": "red",
+          "is_categorical": true
+        }
+      ]
+    },
+    {
+      "period": 2016,
+      "n_samples": 56789,
+      "default_rate_pct": 3.86,
+      "score_psi": 0.8979,
+      "score_alert": "red",
+      "n_features_amber": 15,
+      "n_features_red": 15,
+      "feature_alert": "red",
+      "auc_alert": "amber",
+      "overall_alert": "red",
+      "auc": 0.7281,
+      "auc_drop": 0.216,
+      "top_drifting": [
+        {
+          "name": "interest_rate_missing",
+          "psi": 18.4188,
+          "ks": 1.0,
+          "chi2_stat": null,
+          "chi2_pval": null,
+          "alert": "red",
+          "is_categorical": false
+        },
+        {
+          "name": "FixedorVariableInterestInd",
+          "psi": 17.8892,
+          "ks": null,
+          "chi2_stat": 198474.0,
+          "chi2_pval": 0.0,
+          "alert": "red",
+          "is_categorical": true
+        },
+        {
+          "name": "InitialInterestRate",
+          "psi": 14.6278,
+          "ks": 1.0,
+          "chi2_stat": null,
+          "chi2_pval": null,
+          "alert": "red",
+          "is_categorical": false
+        },
+        {
+          "name": "ProcessingMethod",
+          "psi": 7.0953,
+          "ks": null,
+          "chi2_stat": 140870.69,
+          "chi2_pval": 0.0,
+          "alert": "red",
+          "is_categorical": true
+        },
+        {
+          "name": "BusinessAge",
+          "psi": 6.8735,
+          "ks": null,
+          "chi2_stat": 149522.19,
+          "chi2_pval": 0.0,
+          "alert": "red",
+          "is_categorical": true
+        }
+      ]
+    },
+    {
+      "period": 2017,
+      "n_samples": 56079,
+      "default_rate_pct": 4.3,
+      "score_psi": 0.7854,
+      "score_alert": "red",
+      "n_features_amber": 15,
+      "n_features_red": 14,
+      "feature_alert": "red",
+      "auc_alert": "amber",
+      "overall_alert": "red",
+      "auc": 0.7378,
+      "auc_drop": 0.2062,
+      "top_drifting": [
+        {
+          "name": "interest_rate_missing",
+          "psi": 18.4188,
+          "ks": 1.0,
+          "chi2_stat": null,
+          "chi2_pval": null,
+          "alert": "red",
+          "is_categorical": false
+        },
+        {
+          "name": "FixedorVariableInterestInd",
+          "psi": 17.8872,
+          "ks": null,
+          "chi2_stat": 197764.0,
+          "chi2_pval": 0.0,
+          "alert": "red",
+          "is_categorical": true
+        },
+        {
+          "name": "InitialInterestRate",
+          "psi": 14.3752,
+          "ks": 1.0,
+          "chi2_stat": null,
+          "chi2_pval": null,
+          "alert": "red",
+          "is_categorical": false
+        },
+        {
+          "name": "BusinessAge",
+          "psi": 6.8952,
+          "ks": null,
+          "chi2_stat": 150371.31,
+          "chi2_pval": 0.0,
+          "alert": "red",
+          "is_categorical": true
+        },
+        {
+          "name": "ProcessingMethod",
+          "psi": 6.2601,
+          "ks": null,
+          "chi2_stat": 130687.36,
+          "chi2_pval": 0.0,
+          "alert": "red",
+          "is_categorical": true
+        }
+      ]
+    },
+    {
+      "period": 2018,
+      "n_samples": 54195,
+      "default_rate_pct": 4.65,
+      "score_psi": 0.6658,
+      "score_alert": "red",
+      "n_features_amber": 15,
+      "n_features_red": 14,
+      "feature_alert": "red",
+      "auc_alert": "amber",
+      "overall_alert": "red",
+      "auc": 0.7597,
+      "auc_drop": 0.1843,
+      "top_drifting": [
+        {
+          "name": "interest_rate_missing",
+          "psi": 18.4188,
+          "ks": 1.0,
+          "chi2_stat": null,
+          "chi2_pval": null,
+          "alert": "red",
+          "is_categorical": false
+        },
+        {
+          "name": "FixedorVariableInterestInd",
+          "psi": 17.888,
+          "ks": null,
+          "chi2_stat": 195880.0,
+          "chi2_pval": 0.0,
+          "alert": "red",
+          "is_categorical": true
+        },
+        {
+          "name": "InitialInterestRate",
+          "psi": 14.4065,
+          "ks": 1.0,
+          "chi2_stat": null,
+          "chi2_pval": null,
+          "alert": "red",
+          "is_categorical": false
+        },
+        {
+          "name": "BusinessAge",
+          "psi": 10.0402,
+          "ks": null,
+          "chi2_stat": 180651.75,
+          "chi2_pval": 0.0,
+          "alert": "red",
+          "is_categorical": true
+        },
+        {
+          "name": "ProcessingMethod",
+          "psi": 6.929,
+          "ks": null,
+          "chi2_stat": 128241.4,
+          "chi2_pval": 0.0,
+          "alert": "red",
+          "is_categorical": true
+        }
+      ]
+    }
+  ],
+  "alert_summary": {
+    "green": 0,
+    "amber": 0,
+    "red": 23
+  }
+}

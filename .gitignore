@@ -1,0 +1,45 @@
+# Raw data and cache (Freddie Mac terms prohibit redistribution)
+data/
+*.parquet
+
+# Model files
+models/
+*.joblib
+*.pkl
+*.pickle
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local notes
+notes/
+scratch/
+*.local.*
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Playwright
+test-results/
+playwright-report/

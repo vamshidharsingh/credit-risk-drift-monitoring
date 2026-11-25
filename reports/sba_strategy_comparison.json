@@ -1,0 +1,1649 @@
+{
+  "dataset": "sba",
+  "strategies": [
+    {
+      "name": "never",
+      "n_retrains": 0,
+      "n_attempts": 0,
+      "mean_monitoring_auc": 0.7513,
+      "final_mean_auc": 0.7441,
+      "periods": [
+        {
+          "period": 1996,
+          "n_samples": 39744,
+          "default_rate_pct": 8.13,
+          "auc": 0.944,
+          "champion": "gradient_boosting",
+          "training_years": [
+            1991,
+            1992,
+            1993,
+            1994,
+            1995
+          ]
+        },
+        {
+          "period": 1997,
+          "n_samples": 38823,
+          "default_rate_pct": 7.2,
+          "auc": 0.8686,
+          "champion": "gradient_boosting",
+          "training_years": [
+            1991,
+            1992,
+            1993,
+            1994,
+            1995
+          ]
+        },
+        {
+          "period": 1998,
+          "n_samples": 36018,
+          "default_rate_pct": 7.7,
+          "auc": 0.7237,
+          "champion": "gradient_boosting",
+          "training_years": [
+            1991,
+            1992,
+            1993,
+            1994,
+            1995
+          ]
+        },
+        {
+          "period": 1999,
+          "n_samples": 37097,
+          "default_rate_pct": 7.67,
+          "auc": 0.6307,
+          "champion": "gradient_boosting",
+          "training_years": [
+            1991,
+            1992,
+            1993,
+            1994,
+            1995
+          ]
+        },
+        {
+          "period": 2000,
+          "n_samples": 37600,
+          "default_rate_pct": 6.31,
+          "auc": 0.6125,
+          "champion": "gradient_boosting",
+          "training_years": [
+            1991,
+            1992,
+            1993,
+            1994,
+            1995
+          ]
+        },
+        {
+          "period": 2001,
+          "n_samples": 37323,
+          "default_rate_pct": 5.85,
+          "auc": 0.7694,
+          "champion": "gradient_boosting",
+          "training_years": [
+            1991,
+            1992,
+            1993,
+            1994,
+            1995
+          ]
+        },
+        {
+          "period": 2002,
+          "n_samples": 45184,
+          "default_rate_pct": 6.44,
+          "auc": 0.8944,
+          "champion": "gradient_boosting",
+          "training_years": [
+            1991,
+            1992,
+            1993,
+            1994,
+            1995
+          ]
+        },
+        {
+          "period": 2003,
+          "n_samples": 59119,
+          "default_rate_pct": 7.62,
+          "auc": 0.9012,
+          "champion": "gradient_boosting",
+          "training_years": [
+            1991,
+            1992,
+            1993,
+            1994,
+            1995
+          ]
+        },
+        {
+          "period": 2004,
+          "n_samples": 71283,
+          "default_rate_pct": 9.26,
+          "auc": 0.8748,
+          "champion": "gradient_boosting",
+          "training_years": [
+            1991,
+            1992,
+            1993,
+            1994,
+            1995
+          ]
+        },
+        {
+          "period": 2005,
+          "n_samples": 84436,
+          "default_rate_pct": 13.19,
+          "auc": 0.8241,
+          "champion": "gradient_boosting",
+          "training_years": [
+            1991,
+            1992,
+            1993,
+            1994,
+            1995
+          ]
+        },
+        {
+          "period": 2006,
+          "n_samples": 86570,
+          "default_rate_pct": 22.28,
+          "auc": 0.7828,
+          "champion": "gradient_boosting",
+          "training_years": [
+            1991,
+            1992,
+            1993,
+            1994,
+            1995
+          ]
+        },
+        {
+          "period": 2007,
+          "n_samples": 88270,
+          "default_rate_pct": 27.54,
+          "auc": 0.7357,
+          "champion": "gradient_boosting",
+          "training_years": [
+            1991,
+            1992,
+            1993,
+            1994,
+            1995
+          ]
+        },
+        {
+          "period": 2008,
+          "n_samples": 61636,
+          "default_rate_pct": 21.25,
+          "auc": 0.7185,
+          "champion": "gradient_boosting",
+          "training_years": [
+            1991,
+            1992,
+            1993,
+            1994,
+            1995
+          ]
+        },
+        {
+          "period": 2009,
+          "n_samples": 36636,
+          "default_rate_pct": 8.39,
+          "auc": 0.6187,
+          "champion": "gradient_boosting",
+          "training_years": [
+            1991,
+            1992,
+            1993,
+            1994,
+            1995
+          ]
+        },
+        {
+          "period": 2010,
+          "n_samples": 39913,
+          "default_rate_pct": 4.9,
+          "auc": 0.5987,
+          "champion": "gradient_boosting",
+          "training_years": [
+            1991,
+            1992,
+            1993,
+            1994,
+            1995
+          ]
+        },
+        {
+          "period": 2011,
+          "n_samples": 45628,
+          "default_rate_pct": 3.64,
+          "auc": 0.6799,
+          "champion": "gradient_boosting",
+          "training_years": [
+            1991,
+            1992,
+            1993,
+            1994,
+            1995
+          ]
+        },
+        {
+          "period": 2012,
+          "n_samples": 38889,
+          "default_rate_pct": 3.28,
+          "auc": 0.7147,
+          "champion": "gradient_boosting",
+          "training_years": [
+            1991,
+            1992,
+            1993,
+            1994,
+            1995
+          ]
+        },
+        {
+          "period": 2013,
+          "n_samples": 40416,
+          "default_rate_pct": 3.07,
+          "auc": 0.728,
+          "champion": "gradient_boosting",
+          "training_years": [
+            1991,
+            1992,
+            1993,
+            1994,
+            1995
+          ]
+        },
+        {
+          "period": 2014,
+          "n_samples": 45962,
+          "default_rate_pct": 3.51,
+          "auc": 0.718,
+          "champion": "gradient_boosting",
+          "training_years": [
+            1991,
+            1992,
+            1993,
+            1994,
+            1995
+          ]
+        },
+        {
+          "period": 2015,
+          "n_samples": 55421,
+          "default_rate_pct": 3.85,
+          "auc": 0.716,
+          "champion": "gradient_boosting",
+          "training_years": [
+            1991,
+            1992,
+            1993,
+            1994,
+            1995
+          ]
+        },
+        {
+          "period": 2016,
+          "n_samples": 56789,
+          "default_rate_pct": 3.86,
+          "auc": 0.7281,
+          "champion": "gradient_boosting",
+          "training_years": [
+            1991,
+            1992,
+            1993,
+            1994,
+            1995
+          ]
+        },
+        {
+          "period": 2017,
+          "n_samples": 56079,
+          "default_rate_pct": 4.3,
+          "auc": 0.7378,
+          "champion": "gradient_boosting",
+          "training_years": [
+            1991,
+            1992,
+            1993,
+            1994,
+            1995
+          ]
+        },
+        {
+          "period": 2018,
+          "n_samples": 54195,
+          "default_rate_pct": 4.65,
+          "auc": 0.7597,
+          "champion": "gradient_boosting",
+          "training_years": [
+            1991,
+            1992,
+            1993,
+            1994,
+            1995
+          ]
+        }
+      ],
+      "retrain_events": [],
+      "final_eval": [
+        {
+          "period": 2019,
+          "n_samples": 45671,
+          "default_rate_pct": 3.9,
+          "auc": 0.7366,
+          "champion": "gradient_boosting",
+          "training_years": [
+            1991,
+            1992,
+            1993,
+            1994,
+            1995
+          ]
+        },
+        {
+          "period": 2020,
+          "n_samples": 36464,
+          "default_rate_pct": 2.58,
+          "auc": 0.7596,
+          "champion": "gradient_boosting",
+          "training_years": [
+            1991,
+            1992,
+            1993,
+            1994,
+            1995
+          ]
+        },
+        {
+          "period": 2021,
+          "n_samples": 45074,
+          "default_rate_pct": 2.61,
+          "auc": 0.7362,
+          "champion": "gradient_boosting",
+          "training_years": [
+            1991,
+            1992,
+            1993,
+            1994,
+            1995
+          ]
+        }
+      ]
+    },
+    {
+      "name": "scheduled",
+      "n_retrains": 13,
+      "n_attempts": 19,
+      "mean_monitoring_auc": 0.8246,
+      "final_mean_auc": 0.9251,
+      "periods": [
+        {
+          "period": 1996,
+          "n_samples": 39744,
+          "default_rate_pct": 8.13,
+          "auc": 0.944,
+          "champion": "gradient_boosting",
+          "training_years": [
+            1991,
+            1992,
+            1993,
+            1994,
+            1995
+          ]
+        },
+        {
+          "period": 1997,
+          "n_samples": 38823,
+          "default_rate_pct": 7.2,
+          "auc": 0.8686,
+          "champion": "gradient_boosting",
+          "training_years": [
+            1991,
+            1992,
+            1993,
+            1994,
+            1995
+          ]
+        },
+        {
+          "period": 1998,
+          "n_samples": 36018,
+          "default_rate_pct": 7.7,
+          "auc": 0.7237,
+          "champion": "gradient_boosting",
+          "training_years": [
+            1991,
+            1992,
+            1993,
+            1994,
+            1995
+          ]
+        },
+        {
+          "period": 1999,
+          "n_samples": 37097,
+          "default_rate_pct": 7.67,
+          "auc": 0.6307,
+          "champion": "gradient_boosting",
+          "training_years": [
+            1991,
+            1992,
+            1993,
+            1994,
+            1995
+          ]
+        },
+        {
+          "period": 2000,
+          "n_samples": 37600,
+          "default_rate_pct": 6.31,
+          "auc": 0.6125,
+          "champion": "gradient_boosting",
+          "training_years": [
+            1991,
+            1992,
+            1993,
+            1994,
+            1995
+          ]
+        },
+        {
+          "period": 2001,
+          "n_samples": 37323,
+          "default_rate_pct": 5.85,
+          "auc": 0.7694,
+          "champion": "gradient_boosting",
+          "training_years": [
+            1991,
+            1992,
+            1993,
+            1994,
+            1995
+          ]
+        },
+        {
+          "period": 2002,
+          "n_samples": 45184,
+          "default_rate_pct": 6.44,
+          "auc": 0.8944,
+          "champion": "gradient_boosting",
+          "training_years": [
+            1991,
+            1992,
+            1993,
+            1994,
+            1995
+          ]
+        },
+        {
+          "period": 2003,
+          "n_samples": 59119,
+          "default_rate_pct": 7.62,
+          "auc": 0.9,
+          "champion": "gbm_FY1993-1995",
+          "training_years": [
+            1993,
+            1994,
+            1995
+          ]
+        },
+        {
+          "period": 2004,
+          "n_samples": 71283,
+          "default_rate_pct": 9.26,
+          "auc": 0.9043,
+          "champion": "gbm_FY1994-1996",
+          "training_years": [
+            1994,
+            1995,
+            1996
+          ]
+        },
+        {
+          "period": 2005,
+          "n_samples": 84436,
+          "default_rate_pct": 13.19,
+          "auc": 0.8537,
+          "champion": "gbm_FY1995-1997",
+          "training_years": [
+            1995,
+            1996,
+            1997
+          ]
+        },
+        {
+          "period": 2006,
+          "n_samples": 86570,
+          "default_rate_pct": 22.28,
+          "auc": 0.7949,
+          "champion": "gbm_FY1996-1998",
+          "training_years": [
+            1996,
+            1997,
+            1998
+          ]
+        },
+        {
+          "period": 2007,
+          "n_samples": 88270,
+          "default_rate_pct": 27.54,
+          "auc": 0.7093,
+          "champion": "gbm_FY1997-1999",
+          "training_years": [
+            1997,
+            1998,
+            1999
+          ]
+        },
+        {
+          "period": 2008,
+          "n_samples": 61636,
+          "default_rate_pct": 21.25,
+          "auc": 0.7096,
+          "champion": "gbm_FY1997-1999",
+          "training_years": [
+            1997,
+            1998,
+            1999
+          ]
+        },
+        {
+          "period": 2009,
+          "n_samples": 36636,
+          "default_rate_pct": 8.39,
+          "auc": 0.6332,
+          "champion": "gbm_FY1997-1999",
+          "training_years": [
+            1997,
+            1998,
+            1999
+          ]
+        },
+        {
+          "period": 2010,
+          "n_samples": 39913,
+          "default_rate_pct": 4.9,
+          "auc": 0.6329,
+          "champion": "gbm_FY2000-2002",
+          "training_years": [
+            2000,
+            2001,
+            2002
+          ]
+        },
+        {
+          "period": 2011,
+          "n_samples": 45628,
+          "default_rate_pct": 3.64,
+          "auc": 0.7617,
+          "champion": "gbm_FY2001-2003",
+          "training_years": [
+            2001,
+            2002,
+            2003
+          ]
+        },
+        {
+          "period": 2012,
+          "n_samples": 38889,
+          "default_rate_pct": 3.28,
+          "auc": 0.8923,
+          "champion": "gbm_FY2002-2004",
+          "training_years": [
+            2002,
+            2003,
+            2004
+          ]
+        },
+        {
+          "period": 2013,
+          "n_samples": 40416,
+          "default_rate_pct": 3.07,
+          "auc": 0.9464,
+          "champion": "gbm_FY2003-2005",
+          "training_years": [
+            2003,
+            2004,
+            2005
+          ]
+        },
+        {
+          "period": 2014,
+          "n_samples": 45962,
+          "default_rate_pct": 3.51,
+          "auc": 0.9557,
+          "champion": "gbm_FY2004-2006",
+          "training_years": [
+            2004,
+            2005,
+            2006
+          ]
+        },
+        {
+          "period": 2015,
+          "n_samples": 55421,
+          "default_rate_pct": 3.85,
+          "auc": 0.9582,
+          "champion": "gbm_FY2005-2007",
+          "training_years": [
+            2005,
+            2006,
+            2007
+          ]
+        },
+        {
+          "period": 2016,
+          "n_samples": 56789,
+          "default_rate_pct": 3.86,
+          "auc": 0.9624,
+          "champion": "gbm_FY2005-2007",
+          "training_years": [
+            2005,
+            2006,
+            2007
+          ]
+        },
+        {
+          "period": 2017,
+          "n_samples": 56079,
+          "default_rate_pct": 4.3,
+          "auc": 0.9619,
+          "champion": "gbm_FY2007-2009",
+          "training_years": [
+            2007,
+            2008,
+            2009
+          ]
+        },
+        {
+          "period": 2018,
+          "n_samples": 54195,
+          "default_rate_pct": 4.65,
+          "auc": 0.9451,
+          "champion": "gbm_FY2007-2009",
+          "training_years": [
+            2007,
+            2008,
+            2009
+          ]
+        }
+      ],
+      "retrain_events": [
+        {
+          "period": 2000,
+          "training_years": [
+            1991,
+            1992,
+            1993
+          ],
+          "comparison_year": 1994,
+          "champion_auc": 0.9794,
+          "challenger_auc": 0.96,
+          "auc_diff": -0.0194,
+          "ci_lo": -0.0224,
+          "ci_hi": -0.0164,
+          "promoted": false
+        },
+        {
+          "period": 2001,
+          "training_years": [
+            1992,
+            1993,
+            1994
+          ],
+          "comparison_year": 1995,
+          "champion_auc": 0.9715,
+          "challenger_auc": 0.9603,
+          "auc_diff": -0.0112,
+          "ci_lo": -0.0124,
+          "ci_hi": -0.0099,
+          "promoted": false
+        },
+        {
+          "period": 2002,
+          "training_years": [
+            1993,
+            1994,
+            1995
+          ],
+          "comparison_year": 1996,
+          "champion_auc": 0.944,
+          "challenger_auc": 0.9522,
+          "auc_diff": 0.0081,
+          "ci_lo": 0.0059,
+          "ci_hi": 0.0103,
+          "promoted": true
+        },
+        {
+          "period": 2003,
+          "training_years": [
+            1994,
+            1995,
+            1996
+          ],
+          "comparison_year": 1997,
+          "champion_auc": 0.912,
+          "challenger_auc": 0.962,
+          "auc_diff": 0.0501,
+          "ci_lo": 0.0458,
+          "ci_hi": 0.055,
+          "promoted": true
+        },
+        {
+          "period": 2004,
+          "training_years": [
+            1995,
+            1996,
+            1997
+          ],
+          "comparison_year": 1998,
+          "champion_auc": 0.9362,
+          "challenger_auc": 0.9601,
+          "auc_diff": 0.024,
+          "ci_lo": 0.0222,
+          "ci_hi": 0.026,
+          "promoted": true
+        },
+        {
+          "period": 2005,
+          "training_years": [
+            1996,
+            1997,
+            1998
+          ],
+          "comparison_year": 1999,
+          "champion_auc": 0.9476,
+          "challenger_auc": 0.9683,
+          "auc_diff": 0.0205,
+          "ci_lo": 0.0187,
+          "ci_hi": 0.0223,
+          "promoted": true
+        },
+        {
+          "period": 2006,
+          "training_years": [
+            1997,
+            1998,
+            1999
+          ],
+          "comparison_year": 2000,
+          "champion_auc": 0.959,
+          "challenger_auc": 0.9716,
+          "auc_diff": 0.0125,
+          "ci_lo": 0.0105,
+          "ci_hi": 0.0146,
+          "promoted": true
+        },
+        {
+          "period": 2007,
+          "training_years": [
+            1998,
+            1999,
+            2000
+          ],
+          "comparison_year": 2001,
+          "champion_auc": 0.9562,
+          "challenger_auc": 0.9545,
+          "auc_diff": -0.0018,
+          "ci_lo": -0.0033,
+          "ci_hi": -0.0003,
+          "promoted": false
+        },
+        {
+          "period": 2008,
+          "training_years": [
+            1999,
+            2000,
+            2001
+          ],
+          "comparison_year": 2002,
+          "champion_auc": 0.9364,
+          "challenger_auc": 0.9388,
+          "auc_diff": 0.0025,
+          "ci_lo": 0.0004,
+          "ci_hi": 0.0044,
+          "promoted": false
+        },
+        {
+          "period": 2009,
+          "training_years": [
+            2000,
+            2001,
+            2002
+          ],
+          "comparison_year": 2003,
+          "champion_auc": 0.9096,
+          "challenger_auc": 0.9395,
+          "auc_diff": 0.0299,
+          "ci_lo": 0.0273,
+          "ci_hi": 0.032,
+          "promoted": true
+        },
+        {
+          "period": 2010,
+          "training_years": [
+            2001,
+            2002,
+            2003
+          ],
+          "comparison_year": 2004,
+          "champion_auc": 0.9078,
+          "challenger_auc": 0.9489,
+          "auc_diff": 0.0411,
+          "ci_lo": 0.0393,
+          "ci_hi": 0.0429,
+          "promoted": true
+        },
+        {
+          "period": 2011,
+          "training_years": [
+            2002,
+            2003,
+            2004
+          ],
+          "comparison_year": 2005,
+          "champion_auc": 0.9051,
+          "challenger_auc": 0.9336,
+          "auc_diff": 0.0286,
+          "ci_lo": 0.0275,
+          "ci_hi": 0.0297,
+          "promoted": true
+        },
+        {
+          "period": 2012,
+          "training_years": [
+            2003,
+            2004,
+            2005
+          ],
+          "comparison_year": 2006,
+          "champion_auc": 0.9114,
+          "challenger_auc": 0.9414,
+          "auc_diff": 0.0301,
+          "ci_lo": 0.029,
+          "ci_hi": 0.0311,
+          "promoted": true
+        },
+        {
+          "period": 2013,
+          "training_years": [
+            2004,
+            2005,
+            2006
+          ],
+          "comparison_year": 2007,
+          "champion_auc": 0.9274,
+          "challenger_auc": 0.9374,
+          "auc_diff": 0.01,
+          "ci_lo": 0.0094,
+          "ci_hi": 0.0106,
+          "promoted": true
+        },
+        {
+          "period": 2014,
+          "training_years": [
+            2005,
+            2006,
+            2007
+          ],
+          "comparison_year": 2008,
+          "champion_auc": 0.9332,
+          "challenger_auc": 0.9421,
+          "auc_diff": 0.0088,
+          "ci_lo": 0.0081,
+          "ci_hi": 0.0096,
+          "promoted": true
+        },
+        {
+          "period": 2015,
+          "training_years": [
+            2006,
+            2007,
+            2008
+          ],
+          "comparison_year": 2009,
+          "champion_auc": 0.942,
+          "challenger_auc": 0.9466,
+          "auc_diff": 0.0046,
+          "ci_lo": 0.0037,
+          "ci_hi": 0.0055,
+          "promoted": false
+        },
+        {
+          "period": 2016,
+          "training_years": [
+            2007,
+            2008,
+            2009
+          ],
+          "comparison_year": 2010,
+          "champion_auc": 0.9419,
+          "challenger_auc": 0.9552,
+          "auc_diff": 0.0133,
+          "ci_lo": 0.011,
+          "ci_hi": 0.0161,
+          "promoted": true
+        },
+        {
+          "period": 2017,
+          "training_years": [
+            2008,
+            2009,
+            2010
+          ],
+          "comparison_year": 2011,
+          "champion_auc": 0.9526,
+          "challenger_auc": 0.9562,
+          "auc_diff": 0.0036,
+          "ci_lo": 0.0019,
+          "ci_hi": 0.0053,
+          "promoted": false
+        },
+        {
+          "period": 2018,
+          "training_years": [
+            2009,
+            2010,
+            2011
+          ],
+          "comparison_year": 2012,
+          "champion_auc": 0.9508,
+          "challenger_auc": 0.9599,
+          "auc_diff": 0.0091,
+          "ci_lo": 0.0069,
+          "ci_hi": 0.0111,
+          "promoted": true
+        }
+      ],
+      "final_eval": [
+        {
+          "period": 2019,
+          "n_samples": 45671,
+          "default_rate_pct": 3.9,
+          "auc": 0.9202,
+          "champion": "gbm_FY2009-2011",
+          "training_years": [
+            2009,
+            2010,
+            2011
+          ]
+        },
+        {
+          "period": 2020,
+          "n_samples": 36464,
+          "default_rate_pct": 2.58,
+          "auc": 0.9436,
+          "champion": "gbm_FY2009-2011",
+          "training_years": [
+            2009,
+            2010,
+            2011
+          ]
+        },
+        {
+          "period": 2021,
+          "n_samples": 45074,
+          "default_rate_pct": 2.61,
+          "auc": 0.9114,
+          "champion": "gbm_FY2009-2011",
+          "training_years": [
+            2009,
+            2010,
+            2011
+          ]
+        }
+      ]
+    },
+    {
+      "name": "drift_triggered",
+      "n_retrains": 13,
+      "n_attempts": 19,
+      "mean_monitoring_auc": 0.8246,
+      "final_mean_auc": 0.9251,
+      "periods": [
+        {
+          "period": 1996,
+          "n_samples": 39744,
+          "default_rate_pct": 8.13,
+          "auc": 0.944,
+          "champion": "gradient_boosting",
+          "training_years": [
+            1991,
+            1992,
+            1993,
+            1994,
+            1995
+          ]
+        },
+        {
+          "period": 1997,
+          "n_samples": 38823,
+          "default_rate_pct": 7.2,
+          "auc": 0.8686,
+          "champion": "gradient_boosting",
+          "training_years": [
+            1991,
+            1992,
+            1993,
+            1994,
+            1995
+          ]
+        },
+        {
+          "period": 1998,
+          "n_samples": 36018,
+          "default_rate_pct": 7.7,
+          "auc": 0.7237,
+          "champion": "gradient_boosting",
+          "training_years": [
+            1991,
+            1992,
+            1993,
+            1994,
+            1995
+          ]
+        },
+        {
+          "period": 1999,
+          "n_samples": 37097,
+          "default_rate_pct": 7.67,
+          "auc": 0.6307,
+          "champion": "gradient_boosting",
+          "training_years": [
+            1991,
+            1992,
+            1993,
+            1994,
+            1995
+          ]
+        },
+        {
+          "period": 2000,
+          "n_samples": 37600,
+          "default_rate_pct": 6.31,
+          "auc": 0.6125,
+          "champion": "gradient_boosting",
+          "training_years": [
+            1991,
+            1992,
+            1993,
+            1994,
+            1995
+          ]
+        },
+        {
+          "period": 2001,
+          "n_samples": 37323,
+          "default_rate_pct": 5.85,
+          "auc": 0.7694,
+          "champion": "gradient_boosting",
+          "training_years": [
+            1991,
+            1992,
+            1993,
+            1994,
+            1995
+          ]
+        },
+        {
+          "period": 2002,
+          "n_samples": 45184,
+          "default_rate_pct": 6.44,
+          "auc": 0.8944,
+          "champion": "gradient_boosting",
+          "training_years": [
+            1991,
+            1992,
+            1993,
+            1994,
+            1995
+          ]
+        },
+        {
+          "period": 2003,
+          "n_samples": 59119,
+          "default_rate_pct": 7.62,
+          "auc": 0.9,
+          "champion": "gbm_FY1993-1995",
+          "training_years": [
+            1993,
+            1994,
+            1995
+          ]
+        },
+        {
+          "period": 2004,
+          "n_samples": 71283,
+          "default_rate_pct": 9.26,
+          "auc": 0.9043,
+          "champion": "gbm_FY1994-1996",
+          "training_years": [
+            1994,
+            1995,
+            1996
+          ]
+        },
+        {
+          "period": 2005,
+          "n_samples": 84436,
+          "default_rate_pct": 13.19,
+          "auc": 0.8537,
+          "champion": "gbm_FY1995-1997",
+          "training_years": [
+            1995,
+            1996,
+            1997
+          ]
+        },
+        {
+          "period": 2006,
+          "n_samples": 86570,
+          "default_rate_pct": 22.28,
+          "auc": 0.7949,
+          "champion": "gbm_FY1996-1998",
+          "training_years": [
+            1996,
+            1997,
+            1998
+          ]
+        },
+        {
+          "period": 2007,
+          "n_samples": 88270,
+          "default_rate_pct": 27.54,
+          "auc": 0.7093,
+          "champion": "gbm_FY1997-1999",
+          "training_years": [
+            1997,
+            1998,
+            1999
+          ]
+        },
+        {
+          "period": 2008,
+          "n_samples": 61636,
+          "default_rate_pct": 21.25,
+          "auc": 0.7096,
+          "champion": "gbm_FY1997-1999",
+          "training_years": [
+            1997,
+            1998,
+            1999
+          ]
+        },
+        {
+          "period": 2009,
+          "n_samples": 36636,
+          "default_rate_pct": 8.39,
+          "auc": 0.6332,
+          "champion": "gbm_FY1997-1999",
+          "training_years": [
+            1997,
+            1998,
+            1999
+          ]
+        },
+        {
+          "period": 2010,
+          "n_samples": 39913,
+          "default_rate_pct": 4.9,
+          "auc": 0.6329,
+          "champion": "gbm_FY2000-2002",
+          "training_years": [
+            2000,
+            2001,
+            2002
+          ]
+        },
+        {
+          "period": 2011,
+          "n_samples": 45628,
+          "default_rate_pct": 3.64,
+          "auc": 0.7617,
+          "champion": "gbm_FY2001-2003",
+          "training_years": [
+            2001,
+            2002,
+            2003
+          ]
+        },
+        {
+          "period": 2012,
+          "n_samples": 38889,
+          "default_rate_pct": 3.28,
+          "auc": 0.8923,
+          "champion": "gbm_FY2002-2004",
+          "training_years": [
+            2002,
+            2003,
+            2004
+          ]
+        },
+        {
+          "period": 2013,
+          "n_samples": 40416,
+          "default_rate_pct": 3.07,
+          "auc": 0.9464,
+          "champion": "gbm_FY2003-2005",
+          "training_years": [
+            2003,
+            2004,
+            2005
+          ]
+        },
+        {
+          "period": 2014,
+          "n_samples": 45962,
+          "default_rate_pct": 3.51,
+          "auc": 0.9557,
+          "champion": "gbm_FY2004-2006",
+          "training_years": [
+            2004,
+            2005,
+            2006
+          ]
+        },
+        {
+          "period": 2015,
+          "n_samples": 55421,
+          "default_rate_pct": 3.85,
+          "auc": 0.9582,
+          "champion": "gbm_FY2005-2007",
+          "training_years": [
+            2005,
+            2006,
+            2007
+          ]
+        },
+        {
+          "period": 2016,
+          "n_samples": 56789,
+          "default_rate_pct": 3.86,
+          "auc": 0.9624,
+          "champion": "gbm_FY2005-2007",
+          "training_years": [
+            2005,
+            2006,
+            2007
+          ]
+        },
+        {
+          "period": 2017,
+          "n_samples": 56079,
+          "default_rate_pct": 4.3,
+          "auc": 0.9619,
+          "champion": "gbm_FY2007-2009",
+          "training_years": [
+            2007,
+            2008,
+            2009
+          ]
+        },
+        {
+          "period": 2018,
+          "n_samples": 54195,
+          "default_rate_pct": 4.65,
+          "auc": 0.9451,
+          "champion": "gbm_FY2007-2009",
+          "training_years": [
+            2007,
+            2008,
+            2009
+          ]
+        }
+      ],
+      "retrain_events": [
+        {
+          "period": 2000,
+          "training_years": [
+            1991,
+            1992,
+            1993
+          ],
+          "comparison_year": 1994,
+          "champion_auc": 0.9794,
+          "challenger_auc": 0.96,
+          "auc_diff": -0.0194,
+          "ci_lo": -0.0224,
+          "ci_hi": -0.0164,
+          "promoted": false
+        },
+        {
+          "period": 2001,
+          "training_years": [
+            1992,
+            1993,
+            1994
+          ],
+          "comparison_year": 1995,
+          "champion_auc": 0.9715,
+          "challenger_auc": 0.9603,
+          "auc_diff": -0.0112,
+          "ci_lo": -0.0124,
+          "ci_hi": -0.0099,
+          "promoted": false
+        },
+        {
+          "period": 2002,
+          "training_years": [
+            1993,
+            1994,
+            1995
+          ],
+          "comparison_year": 1996,
+          "champion_auc": 0.944,
+          "challenger_auc": 0.9522,
+          "auc_diff": 0.0081,
+          "ci_lo": 0.0059,
+          "ci_hi": 0.0103,
+          "promoted": true
+        },
+        {
+          "period": 2003,
+          "training_years": [
+            1994,
+            1995,
+            1996
+          ],
+          "comparison_year": 1997,
+          "champion_auc": 0.912,
+          "challenger_auc": 0.962,
+          "auc_diff": 0.0501,
+          "ci_lo": 0.0458,
+          "ci_hi": 0.055,
+          "promoted": true
+        },
+        {
+          "period": 2004,
+          "training_years": [
+            1995,
+            1996,
+            1997
+          ],
+          "comparison_year": 1998,
+          "champion_auc": 0.9362,
+          "challenger_auc": 0.9601,
+          "auc_diff": 0.024,
+          "ci_lo": 0.0222,
+          "ci_hi": 0.026,
+          "promoted": true
+        },
+        {
+          "period": 2005,
+          "training_years": [
+            1996,
+            1997,
+            1998
+          ],
+          "comparison_year": 1999,
+          "champion_auc": 0.9476,
+          "challenger_auc": 0.9683,
+          "auc_diff": 0.0205,
+          "ci_lo": 0.0187,
+          "ci_hi": 0.0223,
+          "promoted": true
+        },
+        {
+          "period": 2006,
+          "training_years": [
+            1997,
+            1998,
+            1999
+          ],
+          "comparison_year": 2000,
+          "champion_auc": 0.959,
+          "challenger_auc": 0.9716,
+          "auc_diff": 0.0125,
+          "ci_lo": 0.0105,
+          "ci_hi": 0.0146,
+          "promoted": true
+        },
+        {
+          "period": 2007,
+          "training_years": [
+            1998,
+            1999,
+            2000
+          ],
+          "comparison_year": 2001,
+          "champion_auc": 0.9562,
+          "challenger_auc": 0.9545,
+          "auc_diff": -0.0018,
+          "ci_lo": -0.0033,
+          "ci_hi": -0.0003,
+          "promoted": false
+        },
+        {
+          "period": 2008,
+          "training_years": [
+            1999,
+            2000,
+            2001
+          ],
+          "comparison_year": 2002,
+          "champion_auc": 0.9364,
+          "challenger_auc": 0.9388,
+          "auc_diff": 0.0025,
+          "ci_lo": 0.0004,
+          "ci_hi": 0.0044,
+          "promoted": false
+        },
+        {
+          "period": 2009,
+          "training_years": [
+            2000,
+            2001,
+            2002
+          ],
+          "comparison_year": 2003,
+          "champion_auc": 0.9096,
+          "challenger_auc": 0.9395,
+          "auc_diff": 0.0299,
+          "ci_lo": 0.0273,
+          "ci_hi": 0.032,
+          "promoted": true
+        },
+        {
+          "period": 2010,
+          "training_years": [
+            2001,
+            2002,
+            2003
+          ],
+          "comparison_year": 2004,
+          "champion_auc": 0.9078,
+          "challenger_auc": 0.9489,
+          "auc_diff": 0.0411,
+          "ci_lo": 0.0393,
+          "ci_hi": 0.0429,
+          "promoted": true
+        },
+        {
+          "period": 2011,
+          "training_years": [
+            2002,
+            2003,
+            2004
+          ],
+          "comparison_year": 2005,
+          "champion_auc": 0.9051,
+          "challenger_auc": 0.9336,
+          "auc_diff": 0.0286,
+          "ci_lo": 0.0275,
+          "ci_hi": 0.0297,
+          "promoted": true
+        },
+        {
+          "period": 2012,
+          "training_years": [
+            2003,
+            2004,
+            2005
+          ],
+          "comparison_year": 2006,
+          "champion_auc": 0.9114,
+          "challenger_auc": 0.9414,
+          "auc_diff": 0.0301,
+          "ci_lo": 0.029,
+          "ci_hi": 0.0311,
+          "promoted": true
+        },
+        {
+          "period": 2013,
+          "training_years": [
+            2004,
+            2005,
+            2006
+          ],
+          "comparison_year": 2007,
+          "champion_auc": 0.9274,
+          "challenger_auc": 0.9374,
+          "auc_diff": 0.01,
+          "ci_lo": 0.0094,
+          "ci_hi": 0.0106,
+          "promoted": true
+        },
+        {
+          "period": 2014,
+          "training_years": [
+            2005,
+            2006,
+            2007
+          ],
+          "comparison_year": 2008,
+          "champion_auc": 0.9332,
+          "challenger_auc": 0.9421,
+          "auc_diff": 0.0088,
+          "ci_lo": 0.0081,
+          "ci_hi": 0.0096,
+          "promoted": true
+        },
+        {
+          "period": 2015,
+          "training_years": [
+            2006,
+            2007,
+            2008
+          ],
+          "comparison_year": 2009,
+          "champion_auc": 0.942,
+          "challenger_auc": 0.9466,
+          "auc_diff": 0.0046,
+          "ci_lo": 0.0037,
+          "ci_hi": 0.0055,
+          "promoted": false
+        },
+        {
+          "period": 2016,
+          "training_years": [
+            2007,
+            2008,
+            2009
+          ],
+          "comparison_year": 2010,
+          "champion_auc": 0.9419,
+          "challenger_auc": 0.9552,
+          "auc_diff": 0.0133,
+          "ci_lo": 0.011,
+          "ci_hi": 0.0161,
+          "promoted": true
+        },
+        {
+          "period": 2017,
+          "training_years": [
+            2008,
+            2009,
+            2010
+          ],
+          "comparison_year": 2011,
+          "champion_auc": 0.9526,
+          "challenger_auc": 0.9562,
+          "auc_diff": 0.0036,
+          "ci_lo": 0.0019,
+          "ci_hi": 0.0053,
+          "promoted": false
+        },
+        {
+          "period": 2018,
+          "training_years": [
+            2009,
+            2010,
+            2011
+          ],
+          "comparison_year": 2012,
+          "champion_auc": 0.9508,
+          "challenger_auc": 0.9599,
+          "auc_diff": 0.0091,
+          "ci_lo": 0.0069,
+          "ci_hi": 0.0111,
+          "promoted": true
+        }
+      ],
+      "final_eval": [
+        {
+          "period": 2019,
+          "n_samples": 45671,
+          "default_rate_pct": 3.9,
+          "auc": 0.9202,
+          "champion": "gbm_FY2009-2011",
+          "training_years": [
+            2009,
+            2010,
+            2011
+          ]
+        },
+        {
+          "period": 2020,
+          "n_samples": 36464,
+          "default_rate_pct": 2.58,
+          "auc": 0.9436,
+          "champion": "gbm_FY2009-2011",
+          "training_years": [
+            2009,
+            2010,
+            2011
+          ]
+        },
+        {
+          "period": 2021,
+          "n_samples": 45074,
+          "default_rate_pct": 2.61,
+          "auc": 0.9114,
+          "champion": "gbm_FY2009-2011",
+          "training_years": [
+            2009,
+            2010,
+            2011
+          ]
+        }
+      ]
+    }
+  ],
+  "comparison": {
+    "never": {
+      "mean_monitoring_auc": 0.7513,
+      "final_mean_auc": 0.7441,
+      "n_retrains": 0,
+      "n_attempts": 0
+    },
+    "scheduled": {
+      "mean_monitoring_auc": 0.8246,
+      "final_mean_auc": 0.9251,
+      "n_retrains": 13,
+      "n_attempts": 19
+    },
+    "drift_triggered": {
+      "mean_monitoring_auc": 0.8246,
+      "final_mean_auc": 0.9251,
+      "n_retrains": 13,
+      "n_attempts": 19
+    }
+  }
+}
